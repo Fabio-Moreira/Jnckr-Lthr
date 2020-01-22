@@ -611,3 +611,100 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.22-11.54.31:538][838]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
 [2020.01.22-11.54.36:900][978]LogSlate: Window 'Content Browser' being destroyed
 [2020.01.22-11.54.36:903][978]LogSlate: Window 'Content Browser' being destroyed
+[2020.01.22-11.55.54:328][247]LogTemp: Repeating last play command: Standalone Game
+[2020.01.22-11.55.54:381][247]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2020.01.22-11.56.45:032][ 46]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Jax.Jax
+[2020.01.22-11.57.01:236][422]BlueprintLog: New page: Compile Jax
+[2020.01.22-11.57.01:615][422]LogUObjectHash: Compacting FUObjectHashTables data took   6.41ms
+[2020.01.22-11.57.02:030][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Jax" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset" SILENT=true
+[2020.01.22-11.57.02:586][425]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/Jax91CEA0954A8B031A9C40939B6F9794B3.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.57.02:587][425]LogFileManager: Warning: DeleteFile was unable to delete 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset', retrying in .5s...
+[2020.01.22-11.57.03:087][425]LogFileManager: Error: Error deleting file 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'.
+[2020.01.22-11.57.03:087][425]LogSavePackage: Error: Error saving 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.57.07:088][425]LogSlate: Window 'Message' being destroyed
+[2020.01.22-11.57.07:096][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Jax" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset" SILENT=true
+[2020.01.22-11.57.07:667][425]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/Jax47EBF5CA40164AAB6355BE8E5BA7005C.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.57.07:667][425]LogFileManager: Warning: DeleteFile was unable to delete 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset', retrying in .5s...
+[2020.01.22-11.57.08:168][425]LogFileManager: Error: Error deleting file 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'.
+[2020.01.22-11.57.08:168][425]LogSavePackage: Error: Error saving 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.57.11:599][425]LogSlate: Window 'Message' being destroyed
+[2020.01.22-11.57.11:610][425]EditorErrors: New page: Save Output
+[2020.01.22-11.57.11:611][425]EditorErrors: Warning: Error saving 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.57.11:611][425]EditorErrors: Warning: Error saving 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.57.13:184][425]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2020.01.22-11.57.13:266][427]LogEditorViewport: Clicking Background
+[2020.01.22-11.57.16:305][498]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-11.57.16:389][498]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2020.01.22-11.57.16:389][498]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.045
+[2020.01.22-11.57.16:391][498]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/Jax] ([1] browsable assets)...
+[2020.01.22-11.57.16:391][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Jax]
+[2020.01.22-11.57.16:391][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Jax" FILE="F:/Github/Jnckr-Lthr/Saved/Autosaves/Game/Blueprints/Characters/Jax_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.01.22-11.57.16:951][498]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/Jax_Auto13915F43449881D42CD27BC9785C6D1EF.tmp' to 'F:/Github/Jnckr-Lthr/Saved/Autosaves/Game/Blueprints/Characters/Jax_Auto1.uasset'
+[2020.01.22-11.57.16:957][498]LogFileHelpers: Auto-saving content packages took 0.567
+[2020.01.22-11.57.17:548][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-11.57.18:569][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Jax" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset" SILENT=true
+[2020.01.22-11.57.19:116][534]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/JaxB2CADA1B4CF1029B9CEFA2953BC698B5.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.57.19:116][534]LogFileManager: Warning: DeleteFile was unable to delete 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset', retrying in .5s...
+[2020.01.22-11.57.19:617][534]LogFileManager: Error: Error deleting file 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'.
+[2020.01.22-11.57.19:617][534]LogSavePackage: Error: Error saving 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.57.20:908][534]LogSlate: Window 'Message' being destroyed
+[2020.01.22-11.57.20:919][534]EditorErrors: New page: Save Output
+[2020.01.22-11.57.20:919][534]EditorErrors: Warning: Error saving 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.57.22:119][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-11.57.22:199][565]LogSlate: Window 'Jax' being destroyed
+[2020.01.22-11.57.22:217][565]LogSlate: Window 'Jax' being destroyed
+[2020.01.22-11.57.22:218][565]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-11.57.23:254][594]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-11.57.23:455][600]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Jax.Jax
+[2020.01.22-11.57.28:466][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Jax" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset" SILENT=true
+[2020.01.22-11.57.29:028][702]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/Jax15EA5EB34D97AC06A82841B6E733F32D.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.57.29:028][702]LogFileManager: Warning: DeleteFile was unable to delete 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset', retrying in .5s...
+[2020.01.22-11.57.29:530][702]LogFileManager: Error: Error deleting file 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'.
+[2020.01.22-11.57.29:530][702]LogSavePackage: Error: Error saving 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.57.30:886][702]LogSlate: Window 'Message' being destroyed
+[2020.01.22-11.57.30:897][702]EditorErrors: New page: Save Output
+[2020.01.22-11.57.30:897][702]EditorErrors: Warning: Error saving 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.57.33:518][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-11.57.33:550][764]LogTemp: Repeating last play command: Standalone Game
+[2020.01.22-11.57.33:613][764]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2020.01.22-11.57.35:166][764]LogSlate: Window 'Save Content' being destroyed
+[2020.01.22-11.57.35:204][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Jax" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset" SILENT=true
+[2020.01.22-11.57.35:671][764]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/Jax0533C7EC4F454F2FCA05A581F66626CA.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.59.48:217][362]BlueprintLog: New page: Compile Jax
+[2020.01.22-11.59.48:592][362]LogUObjectHash: Compacting FUObjectHashTables data took   5.90ms
+[2020.01.22-11.59.49:206][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Jax" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset" SILENT=true
+[2020.01.22-11.59.49:794][372]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/JaxFE600625488BBF5B738DD2BCB8BFF6A9.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.59.49:795][372]LogFileManager: Warning: DeleteFile was unable to delete 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset', retrying in .5s...
+[2020.01.22-11.59.50:296][372]LogFileManager: Error: Error deleting file 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'.
+[2020.01.22-11.59.50:296][372]LogSavePackage: Error: Error saving 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-11.59.54:480][372]LogSlate: Window 'Message' being destroyed
+[2020.01.22-11.59.54:491][372]EditorErrors: New page: Save Output
+[2020.01.22-11.59.54:491][372]EditorErrors: Warning: Error saving 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-12.00.28:655][255]BlueprintLog: New page: Compile Jax
+[2020.01.22-12.00.29:178][255]LogUObjectHash: Compacting FUObjectHashTables data took   5.97ms
+[2020.01.22-12.00.29:211][255]BlueprintLog: New page: Compile Jax
+[2020.01.22-12.00.29:574][255]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2020.01.22-12.00.30:212][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Jax" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset" SILENT=true
+[2020.01.22-12.00.30:804][266]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/Jax9125E55E4DA880D6E2E47FBD4A56D890.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-12.00.30:804][266]LogFileManager: Warning: DeleteFile was unable to delete 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset', retrying in .5s...
+[2020.01.22-12.00.31:305][266]LogFileManager: Error: Error deleting file 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'.
+[2020.01.22-12.00.31:305][266]LogSavePackage: Error: Error saving 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-12.00.33:323][266]LogSlate: Window 'Message' being destroyed
+[2020.01.22-12.00.33:335][266]EditorErrors: New page: Save Output
+[2020.01.22-12.00.33:335][266]EditorErrors: Warning: Error saving 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-12.00.35:770][266]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2020.01.22-12.00.43:254][384]LogSlate: Window 'Jax' being destroyed
+[2020.01.22-12.00.43:272][384]LogSlate: Window 'Jax' being destroyed
+[2020.01.22-12.00.43:274][384]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.00.44:509][426]LogSlate: Window 'Content Browser' being destroyed
+[2020.01.22-12.00.44:533][426]LogSlate: Window 'Content Browser' being destroyed
+[2020.01.22-12.00.54:641][806]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Jax.Jax
+[2020.01.22-12.00.58:469][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Jax" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset" SILENT=true
+[2020.01.22-12.00.58:944][900]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/JaxB163D1A44C424B0A1CEDA1981993E095.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-12.01.45:124][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Jax" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset" SILENT=true
+[2020.01.22-12.01.45:599][321]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/JaxC6E97DED4920F921EEC8C3859CDAF44B.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-12.01.53:086][552]LogSlate: Window 'Jax' being destroyed
+[2020.01.22-12.01.53:106][552]LogSlate: Window 'Jax' being destroyed
+[2020.01.22-12.01.53:107][552]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.01.54:711][620]LogSlate: Window 'Content Browser' being destroyed
+[2020.01.22-12.01.54:739][620]LogSlate: Window 'Content Browser' being destroyed
