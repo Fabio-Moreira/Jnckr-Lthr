@@ -1,4 +1,4 @@
-﻿Log file open, 01/22/20 13:22:03
+﻿Log file open, 01/22/20 13:36:18
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: JaxAndLegger
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.156588
+LogStats: Stats thread started at 0.146535
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,1369 +157,599 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Engine.ini]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Engine.ini]
-[2020.01.22-12.22.04:131][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Engine.ini]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Engine.ini]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2020.01.22-12.22.04:131][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.01.22-12.22.04:132][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.01.22-12.22.04:132][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.01.22-12.22.04:132][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.01.22-12.22.04:132][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.01.22-12.22.04:132][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.01.22-12.22.04:132][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Engine.ini]
-[2020.01.22-12.22.04:132][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Engine.ini]
-[2020.01.22-12.22.04:140][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
-[2020.01.22-12.22.04:140][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.01.22-12.22.04:140][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.01.22-12.22.04:141][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.01.22-12.22.04:142][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.01.22-12.22.04:142][  0]LogInit: Selected Device Profile: [Windows]
-[2020.01.22-12.22.04:142][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.01.22-12.22.04:149][  0]LogHAL: Display: Platform has ~ 8 GB [8469159936 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.01.22-12.22.04:149][  0]LogInit: Going up to parent DeviceProfile []
-[2020.01.22-12.22.04:149][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
-[2020.01.22-12.22.04:149][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.01.22-12.22.04:149][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.01.22-12.22.04:149][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
-[2020.01.22-12.22.04:149][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.01.22-12.22.04:149][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.01.22-12.22.04:150][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.01.22-12.22.04:151][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.01.22-12.22.04:152][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.01.22-12.22.04:153][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.01.22-12.22.04:153][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.01.22-12.22.04:153][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Engine.ini]
-[2020.01.22-12.22.04:153][  0]LogInit: Computer: FABIONOTEBOOK
-[2020.01.22-12.22.04:153][  0]LogInit: User: morfa
-[2020.01.22-12.22.04:153][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.01.22-12.22.04:153][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.01.22-12.22.04:154][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.01.22-12.22.04:154][  0]LogMemory: Platform Memory Stats for Windows
-[2020.01.22-12.22.04:154][  0]LogMemory: Process Physical Memory: 104.68 MB used, 104.68 MB peak
-[2020.01.22-12.22.04:154][  0]LogMemory: Process Virtual Memory: 102.54 MB used, 102.54 MB peak
-[2020.01.22-12.22.04:154][  0]LogMemory: Physical Memory: 5759.19 MB used,  2317.63 MB free, 8076.82 MB total
-[2020.01.22-12.22.04:154][  0]LogMemory: Virtual Memory: 4664.93 MB used,  134213064.00 MB free, 134217728.00 MB total
-[2020.01.22-12.22.04:160][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.01.22-12.22.04:223][  0]LogInit: Using OS detected language (en-US).
-[2020.01.22-12.22.04:223][  0]LogInit: Using OS detected locale (en-US).
-[2020.01.22-12.22.04:224][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.01.22-12.22.04:779][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.01.22-12.22.04:779][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.01.22-12.22.04:852][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.01.22-12.22.04:852][  0]LogD3D11RHI: D3D11 adapters:
-[2020.01.22-12.22.04:969][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2020.01.22-12.22.04:969][  0]LogD3D11RHI:       1979/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.01.22-12.22.04:980][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2020.01.22-12.22.04:980][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.01.22-12.22.04:986][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.01.22-12.22.04:986][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.01.22-12.22.04:986][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.01.22-12.22.05:036][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.01.22-12.22.05:036][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2020.01.22-12.22.05:036][  0]LogWindows: EnumDisplayDevices:
-[2020.01.22-12.22.05:037][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2020.01.22-12.22.05:037][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
-[2020.01.22-12.22.05:038][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.01.22-12.22.05:038][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.01.22-12.22.05:038][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2020.01.22-12.22.05:038][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.01.22-12.22.05:038][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.01.22-12.22.05:038][  0]LogRHI: Texture pool is 1385 MB (70% of 1979 MB)
-[2020.01.22-12.22.05:095][  0]LogD3D11RHI: Async texture creation enabled
-[2020.01.22-12.22.05:109][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.01.22-12.22.05:619][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2020.01.22-12.22.05:630][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2020.01.22-12.22.05:641][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2020.01.22-12.22.05:647][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2020.01.22-12.22.05:647][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.01.22-12.22.05:661][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.01.22-12.22.05:747][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (F:/Github/Jnckr-Lthr/Intermediate/Shaders/WorkingDirectory/21260/).
-[2020.01.22-12.22.05:747][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/morfa/AppData/Local/Temp/UnrealShaderWorkingDir/7F63C81D49D8EAB439172D96F36743E3/'.
-[2020.01.22-12.22.05:750][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.01.22-12.22.05:750][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.01.22-12.22.05:750][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.01.22-12.22.06:535][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.01.22-12.22.06:744][  0]LogDerivedDataCache: Loaded boot cache 0.21s 73MB C:/Users/morfa/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.01.22-12.22.06:744][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/morfa/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2020.01.22-12.22.06:744][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Github/Jnckr-Lthr/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.01.22-12.22.06:744][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.01.22-12.22.06:744][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Github/Jnckr-Lthr/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.01.22-12.22.06:744][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.01.22-12.22.06:763][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.01.22-12.22.06:763][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.01.22-12.22.06:763][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.01.22-12.22.06:764][  0]LogDerivedDataCache: Using Local data cache path C:/Users/morfa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.01.22-12.22.06:764][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.01.22-12.22.06:765][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.01.22-12.22.06:790][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.01.22-12.22.06:795][  0]LogSlate: Using FreeType 2.6.0
-[2020.01.22-12.22.06:797][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.01.22-12.22.07:035][  0]LogInit: Using OS detected language (en-US).
-[2020.01.22-12.22.07:035][  0]LogInit: Using OS detected locale (en-US).
-[2020.01.22-12.22.07:036][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2020.01.22-12.22.07:036][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2020.01.22-12.22.07:036][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2020.01.22-12.22.07:036][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2020.01.22-12.22.07:037][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
-[2020.01.22-12.22.07:042][  0]LogAssetRegistry: FAssetRegistry took 0.0018 seconds to start up
-[2020.01.22-12.22.07:267][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.000901 seconds
-[2020.01.22-12.22.07:325][  0]LogInit: Selected Device Profile: [Windows]
-[2020.01.22-12.22.07:392][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.01.22-12.22.07:392][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.01.22-12.22.07:392][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.01.22-12.22.07:392][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.01.22-12.22.07:392][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.01.22-12.22.07:517][  0]LogNetVersion: JaxAndLegger 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2648958118)
-[2020.01.22-12.22.08:390][  0]LogMoviePlayer: Initializing movie player
-[2020.01.22-12.22.08:531][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.01.22-12.22.08:535][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.01.22-12.22.08:593][  0]SourceControl: Source control is disabled
-[2020.01.22-12.22.08:593][  0]SourceControl: Source control is disabled
-[2020.01.22-12.22.08:595][  0]SourceControl: Source control is disabled
-[2020.01.22-12.22.08:697][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.01.22-12.22.08:958][  0]LogOcInput: OculusInput pre-init called
-[2020.01.22-12.22.08:971][  0]LogUObjectArray: 48866 objects as part of root set at end of initial load.
-[2020.01.22-12.22.08:971][  0]LogUObjectAllocator: 8609784 out of 0 bytes used by permanent object pool.
-[2020.01.22-12.22.08:971][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.01.22-12.22.09:048][  0]LogEngine: Initializing Engine...
-[2020.01.22-12.22.09:049][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.01.22-12.22.09:051][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.01.22-12.22.09:260][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.01.22-12.22.09:302][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.01.22-12.22.09:382][  0]LogInit: FAudioDevice initialized.
-[2020.01.22-12.22.09:383][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.01.22-12.22.09:391][  0]LogInit: Texture streaming: Enabled
-[2020.01.22-12.22.09:729][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.22-12.22.09:730][  0]LogInit: Display: Game Engine Initialized.
-[2020.01.22-12.22.09:802][  0]LogInit: Display: Starting Game.
-[2020.01.22-12.22.09:804][  0]LogNet: Browse: /Game/Maps/MainMenu?Name=Player
-[2020.01.22-12.22.09:804][  0]LogLoad: LoadMap: /Game/Maps/MainMenu?Name=Player
-[2020.01.22-12.22.09:804][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
-[2020.01.22-12.22.09:814][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.01.22-12.22.09:843][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
-[2020.01.22-12.22.09:886][  0]LogUObjectGlobals: Warning: While loading 'F:/Github/Jnckr-Lthr/Content/JandL_Models/BuckDock/duckblock_sm__1_.uasset' failed to load '/Game/JandL_Models/lambert1': Can't find file.
-[2020.01.22-12.22.09:886][  0]LogUObjectGlobals: Warning: While loading 'F:/Github/Jnckr-Lthr/Content/JandL_Models/BuckDock/duckblock_sm__1_.uasset' failed to load '/Game/JandL_Models/lambert1': Can't find file.
-[2020.01.22-12.22.09:887][  0]LogUObjectGlobals: Warning: While loading 'F:/Github/Jnckr-Lthr/Content/JandL_Models/BuckDock/duckblock_sm__1_.uasset' failed to load '/Game/JandL_Models/lambert1': Can't find file.
-[2020.01.22-12.22.09:887][  0]LogUObjectGlobals: Warning: While loading 'F:/Github/Jnckr-Lthr/Content/JandL_Models/BuckDock/duckblock_sm__1_.uasset' failed to load '/Game/JandL_Models/lambert1': Can't find file.
-[2020.01.22-12.22.10:017][  0]LogAIModule: Creating AISystem for world MainMenu
-[2020.01.22-12.22.10:017][  0]LogLoad: Game class is 'GameMode'
-[2020.01.22-12.22.10:022][  0]LogWorld: Bringing World /Game/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2020.01.22-13.22.10
-[2020.01.22-12.22.10:024][  0]LogWorld: Bringing up level for play took: 0.005572
-[2020.01.22-12.22.10:028][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2020.01.22-12.22.10:042][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2020.01.22-12.22.10:042][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2020.01.22-12.22.10:042][  0]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2020.01.22-12.22.10:057][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2020.01.22-12.22.10:058][  0]LogLoad: Took 0.254091 seconds to LoadMap(/Game/Maps/MainMenu)
-[2020.01.22-12.22.10:093][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2020.01.22-12.22.10:093][  0]LogLoad: (Engine Initialization) Total time: 9.77 seconds
-[2020.01.22-12.22.10:093][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.01.22-12.22.10:138][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.01.22-12.22.10:144][  0]LogAudio: Warning: Detected orphaned looping sound 'MenuMusic'.
-[2020.01.22-12.22.10:289][  0]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:1).
-[2020.01.22-12.22.10:334][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:2).
-[2020.01.22-12.22.13:244][180]LogSlate: Took 0.001029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.01.22-12.22.13:848][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.22-12.22.16:346][372]LogInit: WinSock: I am FabioNotebook (192.168.129.98:0)
-[2020.01.22-12.22.16:561][372]LogPackageName: SearchForPackageOnDisk took   0.211s to resolve Lobby.umap.
-[2020.01.22-12.22.16:561][372]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2020.01.22-12.22.16:561][372]LogGameState: Match State Changed from InProgress to LeavingMap
-[2020.01.22-12.22.16:705][372]LogPackageName: SearchForPackageOnDisk took   0.144s to resolve Lobby.umap.
-[2020.01.22-12.22.16:705][372]LogNet: Browse: /Game/Maps/Lobby?Listen
-[2020.01.22-12.22.16:705][372]LogLoad: LoadMap: /Game/Maps/Lobby?Listen
-[2020.01.22-12.22.16:705][372]LogWorld: BeginTearingDown for /Game/Maps/MainMenu
-[2020.01.22-12.22.16:709][372]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
-[2020.01.22-12.22.16:770][372]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
-[2020.01.22-12.22.17:270][372]LogBlueprint: Warning: [Compiler 0_Base] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
-[2020.01.22-12.22.17:270][372]LogBlueprint: Warning: [Compiler 0_Base] InputAction Event references unknown Action 'Jump' for  InputAction Jump
-[2020.01.22-12.22.18:019][372]LogAIModule: Creating AISystem for world Lobby
-[2020.01.22-12.22.18:019][372]LogLoad: Game class is 'LobbyGM_C'
-[2020.01.22-12.22.18:020][372]LogTemp: Display: ParseSettings for GameNetDriver
-[2020.01.22-12.22.18:022][372]LogTemp: Display: ParseSettings for IpNetDriver_0
-[2020.01.22-12.22.18:022][372]LogTemp: Display: ParseSettings for GameNetDriver
-[2020.01.22-12.22.18:023][372]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2020.01.22-12.22.18:023][372]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
-[2020.01.22-12.22.18:024][372]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
-[2020.01.22-12.22.18:025][372]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.01.22-12.22.18:025][372]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
-[2020.01.22-12.22.18:030][372]LogWorld: Bringing World /Game/Maps/Lobby.Lobby up for play (max tick rate 0) at 2020.01.22-13.22.18
-[2020.01.22-12.22.18:030][372]LogWorld: Bringing up level for play took: 0.003498
-[2020.01.22-12.22.18:038][372]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2020.01.22-12.22.18:050][372]LogLoad: Took 1.345383 seconds to LoadMap(/Game/Maps/Lobby)
-[2020.01.22-12.22.19:618][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.22-12.22.19:683][463]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
-[2020.01.22-12.22.19:845][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.22-12.22.41:604][822]LogBlueprintUserMessages: [Jax_C_0] NoBeam
-[2020.01.22-12.22.41:669][826]LogBlueprintUserMessages: [Jax_C_0] NoBeam
-[2020.01.22-12.22.41:930][842]LogNet: NotifyAcceptingConnection accepted from: 192.168.129.99:62568
-[2020.01.22-12.22.41:931][842]LogHandshake: SendConnectChallenge. Timestamp: 25.606251, Cookie: 131167024180063178206185128176085124043000005140062102106176
-[2020.01.22-12.22.41:959][844]LogNet: NotifyAcceptingConnection accepted from: 192.168.129.99:62568
-[2020.01.22-12.22.41:959][844]LogHandshake: SendChallengeAck. InCookie: 131167024180063178206185128176085124043000005140062102106176
-[2020.01.22-12.22.41:960][844]LogNet: Server accepting post-challenge connection from: 192.168.129.99:62568
-[2020.01.22-12.22.41:961][844]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2020.01.22-12.22.41:961][844]LogNet: NotifyAcceptedConnection: Name: Lobby, TimeStamp: 01/22/20 13:22:41, [UNetConnection] RemoteAddr: 192.168.129.99:62568, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.01.22-12.22.41:961][844]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.129.99:62568, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2020.01.22-12.22.41:976][845]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Lobby.Lobby: Accepted
-[2020.01.22-12.22.41:977][845]LogNet: Remote platform little endian=1
-[2020.01.22-12.22.41:977][845]LogNet: This platform little endian=1
-[2020.01.22-12.22.41:977][845]LogNetVersion: JaxAndLegger 1.0.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2830000141)
-[2020.01.22-12.22.41:991][846]LogNet: Login request: /Game/Maps/MainMenu?Name=MSI-E899E8234A772595495E43A7B1D06533 userId: NULL:MSI-E899E8234A772595495E43A7B1D06533 platform: NULL
-[2020.01.22-12.22.42:008][847]LogNet: Client netspeed is 10000
-[2020.01.22-12.22.42:782][895]LogNet: Join request: /Game/Maps/MainMenu?Name=MSI-E899E8234A772595495E43A7B1D06533?SplitscreenCount=1
-[2020.01.22-12.22.42:798][895]LogNet: Join succeeded: MSI-E899E8234A772595
-[2020.01.22-12.22.42:868][900]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
-[2020.01.22-12.22.47:043][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.22-12.22.47:150][165]LogGameMode: ProcessServerTravel: /Game/Maps/Prop_Test_2
-[2020.01.22-12.22.47:161][165]LogWorld: SeamlessTravel to: /Game/Maps/Prop_Test_2
-[2020.01.22-12.22.47:169][166]LogWorld: BeginTearingDown for /Game/Maps/Lobby
-[2020.01.22-12.22.47:170][166]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=false, bCleanupResources=true
-[2020.01.22-12.22.47:216][166]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
-[2020.01.22-12.22.47:217][166]LogAIModule: Creating AISystem for world TravelMap
-[2020.01.22-12.22.47:219][166]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.001 s
-[2020.01.22-12.22.47:219][166]LogWorld: Bringing World /Game/Maps/TravelMap.TravelMap up for play (max tick rate 0) at 2020.01.22-13.22.47
-[2020.01.22-12.22.47:219][166]LogWorld: Bringing up level for play took: 0.000385
-[2020.01.22-12.22.47:219][166]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPC_C_0
-[2020.01.22-12.22.47:220][166]LogNet: Verbose: NotifyLoadedWorld Begin
-[2020.01.22-12.22.47:220][166]LogNet: VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
-[2020.01.22-12.22.47:220][166]LogNet: Verbose: NotifyLoadedWorld End
-[2020.01.22-12.22.47:220][166]LogWorld: StartLoadingDestination to: /Game/Maps/Prop_Test_2
-[2020.01.22-12.22.47:640][176]LogStreaming: Error: Couldn't find file for package /Game/JandL_Models/lambert1 requested by async loading code. NameToLoad: /Game/JandL_Models/lambert1
-[2020.01.22-12.22.48:005][186]LogWorld: BeginTearingDown for /Game/Maps/TravelMap
-[2020.01.22-12.22.48:006][186]LogWorld: UWorld::CleanupWorld for TravelMap, bSessionEnded=true, bCleanupResources=true
-[2020.01.22-12.22.48:066][186]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
-[2020.01.22-12.22.48:068][186]LogAIModule: Creating AISystem for world Prop_Test_2
-[2020.01.22-12.22.48:068][186]LogLoad: Game class is 'GameplayGM_C'
-[2020.01.22-12.22.48:069][186]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.001 s
-[2020.01.22-12.22.48:088][186]LogWorld: Bringing World /Game/Maps/Prop_Test_2.Prop_Test_2 up for play (max tick rate 0) at 2020.01.22-13.22.48
-[2020.01.22-12.22.48:089][186]LogWorld: Bringing up level for play took: 0.020069
-[2020.01.22-12.22.48:090][186]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPC_C_0
-[2020.01.22-12.22.48:090][186]LogNet: Verbose: NotifyLoadedWorld Begin
-[2020.01.22-12.22.48:090][186]LogNet: VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
-[2020.01.22-12.22.48:090][186]LogNet: Verbose: NotifyLoadedWorld End
-[2020.01.22-12.22.48:090][186]LogWorld: ----SeamlessTravel finished in 0.93 seconds ------
-[2020.01.22-12.22.48:091][186]LogScript: Warning: Script Msg: DestroySession - Invalid player state
-[2020.01.22-12.22.48:092][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.22-12.22.48:093][186]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCameraManager_ReturnValue
-	Jax_C /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Jax_C_0
-	Function /Game/Blueprints/Characters/Jax.Jax_C:ExecuteUbergraph_Jax:0817
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/Characters/Jax.Jax_C:ReceiveBeginPlay
-	Function /Game/Blueprints/Characters/Jax.Jax_C:ExecuteUbergraph_Jax
-
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Attempted to assign to None
-	Jax_C /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Jax_C_0
-	Function /Game/Blueprints/Characters/Jax.Jax_C:ExecuteUbergraph_Jax:082C
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/Characters/Jax.Jax_C:ReceiveBeginPlay
-	Function /Game/Blueprints/Characters/Jax.Jax_C:ExecuteUbergraph_Jax
-
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCameraManager_ReturnValue
-	Jax_C /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Jax_C_0
-	Function /Game/Blueprints/Characters/Jax.Jax_C:ExecuteUbergraph_Jax:0862
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/Characters/Jax.Jax_C:ReceiveBeginPlay
-	Function /Game/Blueprints/Characters/Jax.Jax_C:ExecuteUbergraph_Jax
-
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Attempted to assign to None
-	Jax_C /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Jax_C_0
-	Function /Game/Blueprints/Characters/Jax.Jax_C:ExecuteUbergraph_Jax:0877
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/Characters/Jax.Jax_C:ReceiveBeginPlay
-	Function /Game/Blueprints/Characters/Jax.Jax_C:ExecuteUbergraph_Jax
-
-[2020.01.22-12.22.48:094][186]PIE: Error: Only Local Player Controllers can be assigned to widgets. LobbyPC_C_1 is not a Local Player Controller.
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
-	Beam_Signal_C /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Beam_Signal_C_0
-	Function /Game/Blueprints/Beams/CharacterBeams/Beam_Signal.Beam_Signal_C:ExecuteUbergraph_Beam_Signal:00B0
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/Beams/CharacterBeams/Beam_Signal.Beam_Signal_C:ReceiveBeginPlay
-	Function /Game/Blueprints/Beams/CharacterBeams/Beam_Signal.Beam_Signal_C:ExecuteUbergraph_Beam_Signal
-
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Accessed None trying to read property Beamfo
-	Beam_Signal_C /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Beam_Signal_C_0
-	Function /Game/Blueprints/Beams/CharacterBeams/Beam_Signal.Beam_Signal_C:ExecuteUbergraph_Beam_Signal:00E8
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/Beams/CharacterBeams/Beam_Signal.Beam_Signal_C:ReceiveBeginPlay
-	Function /Game/Blueprints/Beams/CharacterBeams/Beam_Signal.Beam_Signal_C:ExecuteUbergraph_Beam_Signal
-
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Accessed None trying to read property Beamfo
-	Beam_Signal_C /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Beam_Signal_C_0
-	Function /Game/Blueprints/Beams/CharacterBeams/Beam_Signal.Beam_Signal_C:ExecuteUbergraph_Beam_Signal:0112
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/Beams/CharacterBeams/Beam_Signal.Beam_Signal_C:ReceiveBeginPlay
-	Function /Game/Blueprints/Beams/CharacterBeams/Beam_Signal.Beam_Signal_C:ExecuteUbergraph_Beam_Signal
-
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Accessed None attempting to assign variable on an object
-	Beam_Signal_C /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Beam_Signal_C_0
-	Function /Game/Blueprints/Beams/CharacterBeams/Beam_Signal.Beam_Signal_C:ExecuteUbergraph_Beam_Signal:0127
-[2020.01.22-12.22.48:094][186]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/Beams/CharacterBeams/Beam_Signal.Beam_Signal_C:ReceiveBeginPlay
-	Function /Game/Blueprints/Beams/CharacterBeams/Beam_Signal.Beam_Signal_C:ExecuteUbergraph_Beam_Signal
-
-[2020.01.22-12.22.48:135][188]LogScript: Warning: Script Msg: DestroySession - Invalid player state
-[2020.01.22-12.22.48:136][188]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: MaterialInstanceDynamic /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.BP_Powerline_9.NewDecalComponent.MaterialInstanceDynamic_0 NOT Supported.
-[2020.01.22-12.22.48:136][188]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: MaterialInstanceDynamic /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.BP_Powerline2.NewDecalComponent.MaterialInstanceDynamic_0 NOT Supported.
-[2020.01.22-12.22.48:136][188]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: MaterialInstanceDynamic /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.BP_Powerline5_45.NewDecalComponent.MaterialInstanceDynamic_0 NOT Supported.
-[2020.01.22-12.22.48:136][188]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: MaterialInstanceDynamic /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.BP_Powerline6_47.NewDecalComponent.MaterialInstanceDynamic_0 NOT Supported.
-[2020.01.22-12.22.48:137][188]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: MaterialInstanceDynamic /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.BP_Powerline3_41.NewDecalComponent.MaterialInstanceDynamic_0 NOT Supported.
-[2020.01.22-12.22.48:137][188]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: MaterialInstanceDynamic /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.BP_Powerline4_43.NewDecalComponent.MaterialInstanceDynamic_0 NOT Supported.
-[2020.01.22-12.22.48:137][188]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: MaterialInstanceDynamic /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.BP_Powerline7_49.NewDecalComponent.MaterialInstanceDynamic_0 NOT Supported.
-[2020.01.22-12.22.48:185][191]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: MaterialInstanceDynamic /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.BP_Powerline9_53.NewDecalComponent.MaterialInstanceDynamic_0 NOT Supported.
-[2020.01.22-12.22.48:201][192]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: MaterialInstanceDynamic /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.BP_Powerline8_51.NewDecalComponent.MaterialInstanceDynamic_0 NOT Supported.
-[2020.01.22-12.22.48:201][192]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: MaterialInstanceDynamic /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.BP_Powerline10_55.NewDecalComponent.MaterialInstanceDynamic_0 NOT Supported.
-[2020.01.22-12.22.48:217][193]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: MaterialInstanceDynamic /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.BP_Powerline11_57.NewDecalComponent.MaterialInstanceDynamic_0 NOT Supported.
-[2020.01.22-12.22.50:361][326]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.50:361][326]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.50:361][326]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.50:361][326]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.50:506][335]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.50:506][335]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.50:506][335]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.50:506][335]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.50:748][350]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.50:748][350]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.50:748][350]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.50:748][350]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.50:942][362]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.50:942][362]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.50:942][362]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.50:942][362]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.51:329][386]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.51:329][386]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.51:329][386]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.51:329][386]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.51:442][393]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.51:442][393]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.51:442][393]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.51:442][393]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.51:555][400]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.51:555][400]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.51:555][400]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.51:555][400]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.51:748][412]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.51:748][412]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.51:748][412]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.51:748][412]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.51:797][415]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.51:797][415]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.51:797][415]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.51:797][415]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.51:894][421]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.51:894][421]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.51:894][421]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.51:894][421]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.51:942][424]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.51:942][424]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.51:942][424]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.51:942][424]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.51:942][424]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.51:942][424]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.51:942][424]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.51:943][424]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:007][428]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:007][428]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:007][428]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:007][428]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:007][428]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:007][428]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:007][428]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:007][428]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:086][433]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:087][433]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:087][433]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:087][433]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:102][434]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:103][434]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:103][434]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:103][434]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:168][438]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:168][438]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:168][438]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:168][438]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:168][438]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:168][438]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:168][438]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:168][438]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:232][442]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:232][442]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:232][442]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:232][442]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:248][443]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:248][443]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:248][443]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:248][443]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:296][446]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:296][446]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:296][446]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:296][446]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:312][447]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:312][447]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:312][447]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:312][447]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:361][450]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:361][450]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:361][450]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:361][450]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:377][451]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:377][451]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:377][451]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:377][451]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:425][454]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:426][454]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:426][454]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:426][454]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:426][454]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:426][454]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:426][454]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:426][454]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:506][459]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:506][459]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:506][459]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:506][459]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:506][459]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:506][459]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:506][459]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:507][459]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:571][463]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:571][463]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:571][463]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:571][463]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:571][463]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:571][463]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:571][463]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:571][463]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:652][468]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:652][468]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:652][468]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:652][468]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:668][469]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:668][469]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:668][469]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:668][469]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:715][472]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:715][472]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:715][472]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:715][472]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:715][472]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:717][472]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:717][472]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:717][472]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:796][477]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:796][477]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:796][477]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:796][477]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:812][478]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:813][478]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:813][478]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:813][478]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:877][482]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:877][482]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:877][482]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:877][482]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:877][482]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:877][482]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:877][482]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:877][482]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:958][487]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:958][487]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:958][487]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:958][487]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.52:958][487]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.52:958][487]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.52:958][487]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.52:958][487]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:023][491]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:023][491]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:023][491]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:023][491]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:055][493]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:055][493]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:055][493]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:055][493]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:104][496]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:104][496]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:104][496]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:104][496]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:120][497]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:121][497]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:121][497]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:121][497]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:184][501]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:184][501]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:184][501]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:184][501]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:264][506]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:264][506]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:264][506]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:264][506]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:345][511]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:345][511]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:345][511]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:345][511]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:345][511]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:346][511]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:346][511]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:346][511]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:410][515]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:411][515]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:411][515]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:411][515]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:426][516]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:426][516]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:426][516]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:426][516]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:491][520]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:491][520]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:491][520]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:491][520]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:506][521]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:506][521]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:506][521]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:506][521]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:587][526]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:587][526]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:587][526]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:587][526]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:603][527]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:603][527]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:603][527]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:603][527]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:667][531]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:668][531]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:668][531]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:668][531]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:668][531]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:668][531]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:668][531]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:668][531]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:764][537]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:765][537]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:765][537]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:765][537]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:781][538]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:781][538]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:781][538]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:781][538]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:845][542]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:846][542]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:846][542]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:846][542]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:894][545]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:894][545]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:894][545]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:894][545]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:942][548]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:942][548]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:942][548]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:942][548]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.53:942][548]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.53:942][548]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.53:943][548]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.53:943][548]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:022][553]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:022][553]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:022][553]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:022][553]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:022][553]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:023][553]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:023][553]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:023][553]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:120][559]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:120][559]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:120][559]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:120][559]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:120][559]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:120][559]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:120][559]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:120][559]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:168][562]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:168][562]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:168][562]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:168][562]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:297][570]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:297][570]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:297][570]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:297][570]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:363][574]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:363][574]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:363][574]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:363][574]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:363][574]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:364][574]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:364][574]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:364][574]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:458][580]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:458][580]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:458][580]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:458][580]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:474][581]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:474][581]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:474][581]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:474][581]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:539][585]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:539][585]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:539][585]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:539][585]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:539][585]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:539][585]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:539][585]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:539][585]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:636][591]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:636][591]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:636][591]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:636][591]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:636][591]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:637][591]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:637][591]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:637][591]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:701][595]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:701][595]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:701][595]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:701][595]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:716][596]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:716][596]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:717][596]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:717][596]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:749][598]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:749][598]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:749][598]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:749][598]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:797][601]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:797][601]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:797][601]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:798][601]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:893][607]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:893][607]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:893][607]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:893][607]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.54:926][609]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.54:926][609]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.54:926][609]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.54:926][609]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:055][617]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:055][617]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:055][617]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:055][617]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:055][617]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:055][617]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:055][617]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:055][617]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:168][624]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:168][624]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:168][624]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:168][624]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:168][624]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:168][624]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:168][624]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:168][624]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:233][628]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:233][628]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:233][628]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:233][628]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:233][628]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:233][628]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:233][628]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:233][628]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:345][635]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:345][635]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:345][635]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:345][635]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:361][636]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:361][636]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:361][636]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:361][636]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:411][639]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:411][639]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:411][639]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:411][639]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:411][639]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:411][639]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:411][639]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:411][639]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:523][646]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:523][646]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:523][646]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:523][646]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:523][646]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:523][646]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:523][646]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:523][646]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:588][650]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:588][650]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:588][650]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:588][650]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:588][650]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:588][650]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:588][650]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:588][650]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:700][657]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:700][657]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:700][657]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:700][657]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:701][657]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:701][657]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:701][657]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:701][657]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:765][661]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:765][661]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:765][661]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:765][661]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:797][663]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:797][663]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:797][663]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:797][663]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:878][668]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:878][668]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:878][668]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:878][668]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:878][668]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:878][668]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:878][668]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:878][668]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:942][672]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:942][672]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:942][672]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:942][672]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.55:958][673]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.55:958][673]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.55:958][673]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.55:958][673]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.56:055][679]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.56:055][679]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.56:055][679]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.56:055][679]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.56:072][680]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.56:072][680]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.56:072][680]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.22.56:072][680]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.22.56:475][705]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.56:475][705]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.56:475][705]LogBlueprintUserMessages: [Jax_C_0] multi
-[2020.01.22-12.22.57:056][741]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.22.57:056][741]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.22.57:056][741]LogBlueprintUserMessages: [Jax_C_0] multi
-[2020.01.22-12.23.04:266][188]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.04:266][188]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.04:266][188]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.04:266][188]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.04:314][191]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.04:314][191]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.04:314][191]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.04:314][191]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.04:540][205]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.04:540][205]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.04:540][205]LogBlueprintUserMessages: [Jax_C_0] multi
-[2020.01.22-12.23.04:670][213]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.04:670][213]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.04:670][213]LogBlueprintUserMessages: [Jax_C_0] multi
-[2020.01.22-12.23.05:621][272]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.05:621][272]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.05:621][272]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.05:621][272]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.05:701][277]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.05:701][277]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.05:701][277]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.05:701][277]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.05:975][294]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.05:975][294]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.05:975][294]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.05:975][294]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.06:056][299]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.06:056][299]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.06:056][299]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.06:056][299]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.06:233][310]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.06:233][310]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.06:233][310]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.06:233][310]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.06:330][316]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.06:330][316]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.06:330][316]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.06:330][316]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.06:459][324]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.06:460][324]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.06:460][324]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.06:460][324]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.06:556][330]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.06:556][330]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.06:556][330]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.06:557][330]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.06:701][339]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.06:701][339]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.06:701][339]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.06:701][339]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.06:798][345]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.06:798][345]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.06:798][345]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.06:798][345]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.06:911][352]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.06:911][352]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.06:911][352]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.06:911][352]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.07:007][358]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.07:007][358]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.07:008][358]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.07:008][358]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.07:154][367]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.07:154][367]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.07:154][367]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.07:154][367]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.07:265][374]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.07:265][374]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.07:265][374]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.07:265][374]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.08:944][478]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.08:944][478]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.08:944][478]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.08:944][478]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.09:007][482]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.09:008][482]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.09:008][482]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.09:008][482]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.09:169][492]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.09:170][492]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.09:170][492]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.09:170][492]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.09:250][497]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.09:250][497]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.09:250][497]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.09:250][497]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.09:395][506]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.09:395][506]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.09:395][506]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.09:395][506]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.09:459][510]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.09:459][510]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.09:459][510]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.09:459][510]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.09:621][520]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.09:621][520]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.09:621][520]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.09:621][520]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.09:718][526]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.09:718][526]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.09:718][526]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.09:718][526]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.11:605][643]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.11:605][643]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.11:605][643]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.11:605][643]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.11:717][650]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.11:717][650]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.11:717][650]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.11:717][650]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.11:846][658]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.11:846][658]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.11:847][658]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.11:847][658]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.11:943][664]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.11:944][664]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.11:944][664]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.11:944][664]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.12:105][673]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.12:105][673]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.12:105][673]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.12:105][673]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.12:200][679]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.12:200][679]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.12:200][679]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.12:200][679]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.12:345][688]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.12:345][688]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.12:345][688]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.12:345][688]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.12:426][693]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.12:426][693]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.12:426][693]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.12:426][693]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.12:603][704]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.12:604][704]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.12:604][704]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.12:604][704]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.12:668][708]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.12:668][708]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.12:668][708]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.12:668][708]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.12:813][717]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.12:813][717]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.12:813][717]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.12:814][717]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.12:909][723]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.12:909][723]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.12:910][723]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.12:910][723]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.13:071][733]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.13:071][733]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.13:071][733]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.13:071][733]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.13:136][737]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.13:136][737]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.13:136][737]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.13:136][737]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.13:281][746]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.13:281][746]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.13:281][746]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.13:281][746]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.13:377][752]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.13:377][752]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.13:377][752]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.13:377][752]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.13:539][762]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.13:539][762]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.13:539][762]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.13:539][762]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.13:636][768]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.13:636][768]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.13:636][768]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.13:636][768]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.13:781][777]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.13:781][777]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.13:781][777]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.13:781][777]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.13:893][784]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.13:893][784]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.13:893][784]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.13:893][784]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.14:071][795]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.14:071][795]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.14:071][795]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.14:071][795]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.14:152][800]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.14:152][800]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.14:152][800]LogBlueprintUserMessages: [Leggers_C_0] multi
-[2020.01.22-12.23.14:152][800]LogBlueprintUserMessages: [Leggers_C_0] server
-[2020.01.22-12.23.26:185][546]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.26:185][546]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.26:186][546]LogBlueprintUserMessages: [Jax_C_0] multi
-[2020.01.22-12.23.26:411][560]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.26:411][560]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.26:411][560]LogBlueprintUserMessages: [Jax_C_0] multi
-[2020.01.22-12.23.27:927][654]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.27:927][654]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.27:927][654]LogBlueprintUserMessages: [Jax_C_0] multi
-[2020.01.22-12.23.28:185][670]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.28:186][670]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.28:186][670]LogBlueprintUserMessages: [Jax_C_0] multi
-[2020.01.22-12.23.30:234][797]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.30:234][797]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.30:234][797]LogBlueprintUserMessages: [Jax_C_0] multi
-[2020.01.22-12.23.30:362][805]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.30:363][805]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.30:363][805]LogBlueprintUserMessages: [Jax_C_0] multi
-[2020.01.22-12.23.36:250][170]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.36:251][170]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.36:251][170]LogBlueprintUserMessages: [Jax_C_0] multi
-[2020.01.22-12.23.36:428][181]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.36:428][181]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.36:428][181]LogBlueprintUserMessages: [Jax_C_0] multi
-[2020.01.22-12.23.39:139][349]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.39:139][349]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.39:139][349]LogBlueprintUserMessages: [Jax_C_0] multi
-[2020.01.22-12.23.39:347][362]LogBlueprintUserMessages: [Beam_Signal_C_4] Called from server
-[2020.01.22-12.23.39:347][362]LogBlueprintUserMessages: [Beam_Signal_C_4] Multi executed
-[2020.01.22-12.23.39:347][362]LogBlueprintUserMessages: [Jax_C_0] multi
-[2020.01.22-12.24.04:975][947]LogSlate: Window 'JaxAndLegger (64-bit Development PCD3D_SM5) ' being destroyed
-[2020.01.22-12.24.04:980][947]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.01.22-12.24.04:984][947]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.01.22-12.24.04:986][947]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
-[2020.01.22-12.24.04:986][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.22-12.24.04:986][947]LogEngine: All Windows Closed
-[2020.01.22-12.24.04:986][947]LogWindows: FPlatformMisc::RequestExit(0)
-[2020.01.22-12.24.05:001][948]LogWorld: BeginTearingDown for /Game/Maps/Prop_Test_2
-[2020.01.22-12.24.05:001][948]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
-[2020.01.22-12.24.05:001][948]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
-[2020.01.22-12.24.05:001][948]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 192.168.129.99:62568, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: GameplayPC_C_1, Owner: GameplayPC_C_1, UniqueId: NULL:MSI-E899E8234A772595495E43A7B1D06533
-[2020.01.22-12.24.05:001][948]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.129.99:62568, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: GameplayPC_C_1, Owner: GameplayPC_C_1, UniqueId: NULL:MSI-E899E8234A772595495E43A7B1D06533, Channels: 30, Time: 2020.01.22-12.24.05
-[2020.01.22-12.24.05:002][948]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.129.99:62568, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: GameplayPC_C_1, Owner: GameplayPC_C_1, UniqueId: NULL:MSI-E899E8234A772595495E43A7B1D06533
-[2020.01.22-12.24.05:002][948]LogExit: GameNetDriver IpNetDriver_0 shut down
-[2020.01.22-12.24.05:002][948]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
-[2020.01.22-12.24.05:119][948]LogExit: Preparing to exit.
-[2020.01.22-12.24.05:119][948]LogMoviePlayer: Shutting down movie player
-[2020.01.22-12.24.05:626][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.22-12.24.05:637][948]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2020.01.22-12.24.05:646][948]LogExit: Game engine shut down
-[2020.01.22-12.24.05:790][948]LogExit: Object subsystem successfully closed.
-[2020.01.22-12.24.05:818][948]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.01.22-12.24.05:847][948]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (410)
-[2020.01.22-12.24.05:847][948]LogModuleManager: Shutting down and abandoning module SequenceRecorder (408)
-[2020.01.22-12.24.05:847][948]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2020.01.22-12.24.05:848][948]LogModuleManager: Shutting down and abandoning module AutomationWorker (404)
-[2020.01.22-12.24.05:848][948]LogModuleManager: Shutting down and abandoning module Voice (402)
-[2020.01.22-12.24.05:848][948]LogModuleManager: Shutting down and abandoning module AIModule (400)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module GameplayDebugger (399)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module AITestSuite (397)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module NavigationSystem (395)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module OculusMR (392)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (390)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (388)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module WebMMedia (386)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (384)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (382)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (380)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (378)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (376)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (374)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module CharacterAI (372)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module SessionServices (370)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (368)
-[2020.01.22-12.24.05:849][948]LogModuleManager: Shutting down and abandoning module LiveCoding (366)
-[2020.01.22-12.24.05:850][948]LogModuleManager: Shutting down and abandoning module LevelSequence (364)
-[2020.01.22-12.24.05:850][948]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
-[2020.01.22-12.24.05:850][948]LogModuleManager: Shutting down and abandoning module MovieScene (360)
-[2020.01.22-12.24.05:850][948]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (358)
-[2020.01.22-12.24.05:850][948]LogModuleManager: Shutting down and abandoning module PortalServices (356)
-[2020.01.22-12.24.05:850][948]LogModuleManager: Shutting down and abandoning module PortalRpc (354)
-[2020.01.22-12.24.05:850][948]LogModuleManager: Shutting down and abandoning module MessagingRpc (352)
-[2020.01.22-12.24.05:850][948]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (350)
-[2020.01.22-12.24.05:853][948]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2020.01.22-12.24.05:953][948]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2020.01.22-12.24.05:956][948]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2020.01.22-12.24.05:956][948]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
-[2020.01.22-12.24.05:957][948]LogModuleManager: Shutting down and abandoning module OculusInput (340)
-[2020.01.22-12.24.05:957][948]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
-[2020.01.22-12.24.05:957][948]LogModuleManager: Shutting down and abandoning module EditableMesh (336)
-[2020.01.22-12.24.05:957][948]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2020.01.22-12.24.05:957][948]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2020.01.22-12.24.05:957][948]LogModuleManager: Shutting down and abandoning module AudioCapture (330)
-[2020.01.22-12.24.05:957][948]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (328)
-[2020.01.22-12.24.05:957][948]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (326)
-[2020.01.22-12.24.05:957][948]LogModuleManager: Shutting down and abandoning module AppleImageUtils (324)
-[2020.01.22-12.24.05:957][948]LogModuleManager: Shutting down and abandoning module AndroidPermission (322)
-[2020.01.22-12.24.05:957][948]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (320)
-[2020.01.22-12.24.05:958][948]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (318)
-[2020.01.22-12.24.05:958][948]LogModuleManager: Shutting down and abandoning module MediaCompositing (316)
-[2020.01.22-12.24.05:958][948]LogModuleManager: Shutting down and abandoning module ImgMedia (314)
-[2020.01.22-12.24.05:958][948]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (312)
-[2020.01.22-12.24.05:958][948]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (310)
-[2020.01.22-12.24.05:958][948]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (308)
-[2020.01.22-12.24.05:958][948]LogModuleManager: Shutting down and abandoning module HTML5Networking (306)
-[2020.01.22-12.24.05:958][948]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (304)
-[2020.01.22-12.24.05:958][948]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (303)
-[2020.01.22-12.24.05:959][948]LogModuleManager: Shutting down and abandoning module GeometryCache (300)
-[2020.01.22-12.24.05:959][948]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (299)
-[2020.01.22-12.24.05:959][948]LogModuleManager: Shutting down and abandoning module BackChannel (296)
-[2020.01.22-12.24.05:959][948]LogModuleManager: Shutting down and abandoning module AutomationUtils (294)
-[2020.01.22-12.24.05:959][948]LogModuleManager: Shutting down and abandoning module VariantManagerContent (292)
-[2020.01.22-12.24.05:959][948]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (290)
-[2020.01.22-12.24.05:959][948]LogModuleManager: Shutting down and abandoning module CryptoKeys (288)
-[2020.01.22-12.24.05:959][948]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (286)
-[2020.01.22-12.24.05:959][948]LogModuleManager: Shutting down and abandoning module HotReload (285)
-[2020.01.22-12.24.05:961][948]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (284)
-[2020.01.22-12.24.05:961][948]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (280)
-[2020.01.22-12.24.05:961][948]LogModuleManager: Shutting down and abandoning module UObjectPlugin (278)
-[2020.01.22-12.24.05:961][948]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (276)
-[2020.01.22-12.24.05:961][948]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (274)
-[2020.01.22-12.24.05:962][948]LogModuleManager: Shutting down and abandoning module SourceControl (273)
-[2020.01.22-12.24.05:962][948]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (270)
-[2020.01.22-12.24.05:962][948]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (268)
-[2020.01.22-12.24.05:962][948]LogModuleManager: Shutting down and abandoning module JaxAndLegger (266)
-[2020.01.22-12.24.05:963][948]LogModuleManager: Shutting down and abandoning module SignificanceManager (264)
-[2020.01.22-12.24.05:963][948]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (262)
-[2020.01.22-12.24.05:963][948]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (260)
-[2020.01.22-12.24.05:963][948]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (256)
-[2020.01.22-12.24.05:963][948]LogModuleManager: Shutting down and abandoning module ActorSequence (254)
-[2020.01.22-12.24.05:963][948]LogModuleManager: Shutting down and abandoning module UdpMessaging (252)
-[2020.01.22-12.24.06:064][948]LogModuleManager: Shutting down and abandoning module TcpMessaging (250)
-[2020.01.22-12.24.06:596][948]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (248)
-[2020.01.22-12.24.06:596][948]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (246)
-[2020.01.22-12.24.06:596][948]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (244)
-[2020.01.22-12.24.06:600][948]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (242)
-[2020.01.22-12.24.06:600][948]LogModuleManager: Shutting down and abandoning module MagicLeapController (240)
-[2020.01.22-12.24.06:600][948]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2020.01.22-12.24.06:600][948]LogModuleManager: Shutting down and abandoning module MagicLeapAR (238)
-[2020.01.22-12.24.06:600][948]LogModuleManager: Shutting down and abandoning module AugmentedReality (237)
-[2020.01.22-12.24.06:600][948]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
-[2020.01.22-12.24.06:601][948]LogModuleManager: Shutting down and abandoning module FacialAnimation (232)
-[2020.01.22-12.24.06:601][948]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (230)
-[2020.01.22-12.24.06:602][948]LogModuleManager: Shutting down and abandoning module TreeMap (229)
-[2020.01.22-12.24.06:602][948]LogModuleManager: Shutting down and abandoning module AnimationSharing (226)
-[2020.01.22-12.24.06:602][948]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (224)
-[2020.01.22-12.24.06:602][948]LogModuleManager: Shutting down and abandoning module Paper2D (222)
-[2020.01.22-12.24.06:603][948]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (220)
-[2020.01.22-12.24.06:605][948]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (218)
-[2020.01.22-12.24.06:605][948]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (216)
-[2020.01.22-12.24.06:605][948]LogModuleManager: Shutting down and abandoning module PacketHandler (214)
-[2020.01.22-12.24.06:605][948]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2020.01.22-12.24.06:605][948]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2020.01.22-12.24.06:606][948]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2020.01.22-12.24.06:607][948]LogModuleManager: Shutting down and abandoning module Overlay (206)
-[2020.01.22-12.24.06:607][948]LogModuleManager: Shutting down and abandoning module OverlayEditor (205)
-[2020.01.22-12.24.06:607][948]LogModuleManager: Shutting down and abandoning module VREditor (202)
-[2020.01.22-12.24.06:607][948]LogModuleManager: Shutting down and abandoning module StringTableEditor (200)
-[2020.01.22-12.24.06:608][948]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (198)
-[2020.01.22-12.24.06:608][948]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (196)
-[2020.01.22-12.24.06:610][948]LogModuleManager: Shutting down and abandoning module FunctionalTesting (194)
-[2020.01.22-12.24.06:611][948]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (192)
-[2020.01.22-12.24.06:612][948]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (191)
-[2020.01.22-12.24.06:612][948]LogModuleManager: Shutting down and abandoning module UMG (188)
-[2020.01.22-12.24.06:612][948]LogModuleManager: Shutting down and abandoning module UMGEditor (187)
-[2020.01.22-12.24.06:612][948]LogModuleManager: Shutting down and abandoning module Sequencer (186)
-[2020.01.22-12.24.06:615][948]LogModuleManager: Shutting down and abandoning module MessageLog (183)
-[2020.01.22-12.24.06:615][948]LogModuleManager: Shutting down and abandoning module SlateReflector (178)
-[2020.01.22-12.24.06:617][948]LogModuleManager: Shutting down and abandoning module Slate (176)
-[2020.01.22-12.24.06:617][948]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (174)
-[2020.01.22-12.24.06:617][948]LogModuleManager: Shutting down and abandoning module EditorStyle (172)
-[2020.01.22-12.24.06:617][948]LogModuleManager: Shutting down and abandoning module UnrealEd (170)
-[2020.01.22-12.24.06:618][948]LogModuleManager: Shutting down and abandoning module MRMesh (168)
-[2020.01.22-12.24.06:618][948]LogModuleManager: Shutting down and abandoning module Messaging (166)
-[2020.01.22-12.24.06:618][948]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
-[2020.01.22-12.24.06:618][948]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
-[2020.01.22-12.24.06:618][948]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
-[2020.01.22-12.24.06:618][948]LogModuleManager: Shutting down and abandoning module Networking (158)
-[2020.01.22-12.24.06:618][948]LogModuleManager: Shutting down and abandoning module Core (156)
-[2020.01.22-12.24.06:618][948]LogModuleManager: Shutting down and abandoning module KismetCompiler (154)
-[2020.01.22-12.24.06:618][948]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2020.01.22-12.24.06:618][948]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (151)
-[2020.01.22-12.24.06:618][948]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (150)
-[2020.01.22-12.24.06:618][948]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (149)
-[2020.01.22-12.24.06:619][948]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (147)
-[2020.01.22-12.24.06:620][948]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (145)
-[2020.01.22-12.24.06:620][948]LogModuleManager: Shutting down and abandoning module MaterialBaking (141)
-[2020.01.22-12.24.06:620][948]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (136)
-[2020.01.22-12.24.06:620][948]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (134)
-[2020.01.22-12.24.06:620][948]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
-[2020.01.22-12.24.06:906][948]LogDerivedDataCache: Shutdown
-[2020.01.22-12.24.06:909][948]LogModuleManager: Shutting down and abandoning module XGEController (130)
-[2020.01.22-12.24.06:909][948]LogModuleManager: Shutting down and abandoning module TargetPlatform (128)
-[2020.01.22-12.24.06:909][948]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (127)
-[2020.01.22-12.24.06:909][948]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (125)
-[2020.01.22-12.24.06:909][948]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (123)
-[2020.01.22-12.24.06:910][948]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (121)
-[2020.01.22-12.24.06:910][948]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (119)
-[2020.01.22-12.24.06:911][948]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (117)
-[2020.01.22-12.24.06:911][948]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (115)
-[2020.01.22-12.24.06:911][948]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (113)
-[2020.01.22-12.24.06:911][948]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (111)
-[2020.01.22-12.24.06:911][948]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (109)
-[2020.01.22-12.24.06:911][948]LogModuleManager: Shutting down and abandoning module ImageWrapper (108)
-[2020.01.22-12.24.06:911][948]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (105)
-[2020.01.22-12.24.06:911][948]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (103)
-[2020.01.22-12.24.06:912][948]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (101)
-[2020.01.22-12.24.06:912][948]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (99)
-[2020.01.22-12.24.06:912][948]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (97)
-[2020.01.22-12.24.06:912][948]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (95)
-[2020.01.22-12.24.06:912][948]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (93)
-[2020.01.22-12.24.06:912][948]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (91)
-[2020.01.22-12.24.06:912][948]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2020.01.22-12.24.06:912][948]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2020.01.22-12.24.06:912][948]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2020.01.22-12.24.06:912][948]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
-[2020.01.22-12.24.06:912][948]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
-[2020.01.22-12.24.06:912][948]LogModuleManager: Shutting down and abandoning module SteamVR (78)
-[2020.01.22-12.24.06:912][948]LogHMD: Freeing OpenVRDLLHandle.
-[2020.01.22-12.24.06:912][948]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
-[2020.01.22-12.24.06:913][948]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
-[2020.01.22-12.24.06:913][948]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
-[2020.01.22-12.24.06:913][948]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
-[2020.01.22-12.24.06:913][948]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
-[2020.01.22-12.24.06:915][948]LogModuleManager: Shutting down and abandoning module XMPP (61)
-[2020.01.22-12.24.06:916][948]LogModuleManager: Shutting down and abandoning module WebSockets (60)
-[2020.01.22-12.24.06:934][948]LogModuleManager: Shutting down and abandoning module HTTP (57)
-[2020.01.22-12.24.06:956][948]LogModuleManager: Shutting down and abandoning module SSL (56)
-[2020.01.22-12.24.06:958][948]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
-[2020.01.22-12.24.06:960][948]LogModuleManager: Shutting down and abandoning module Media (51)
-[2020.01.22-12.24.06:961][948]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
-[2020.01.22-12.24.06:961][948]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
-[2020.01.22-12.24.06:964][948]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
-[2020.01.22-12.24.06:964][948]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
-[2020.01.22-12.24.06:964][948]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2020.01.22-12.24.06:964][948]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2020.01.22-12.24.06:965][948]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2020.01.22-12.24.06:965][948]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2020.01.22-12.24.06:966][948]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2020.01.22-12.24.06:967][948]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2020.01.22-12.24.06:967][948]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2020.01.22-12.24.06:967][948]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2020.01.22-12.24.06:968][948]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2020.01.22-12.24.06:969][948]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2020.01.22-12.24.06:969][948]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2020.01.22-12.24.06:969][948]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2020.01.22-12.24.06:969][948]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2020.01.22-12.24.06:969][948]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2020.01.22-12.24.06:969][948]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2020.01.22-12.24.06:970][948]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2020.01.22-12.24.06:970][948]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2020.01.22-12.24.06:970][948]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2020.01.22-12.24.06:970][948]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2020.01.22-12.24.06:970][948]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2020.01.22-12.24.06:971][948]LogD3D11RHI: Shutdown
-[2020.01.22-12.24.06:971][948]LogD3D11RHI: CleanupD3DDevice
-[2020.01.22-12.24.06:973][948]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2020.01.22-12.24.06:973][948]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2020.01.22-12.24.06:973][948]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2020.01.22-12.24.06:976][948]LogD3D11RHI: ~FD3D11DynamicRHI
-[2020.01.22-12.24.06:992][948]LogExit: Exiting.
-[2020.01.22-12.24.06:999][948]Log file closed, 01/22/20 13:24:06
+[2020.01.22-12.36.19:115][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2020.01.22-12.36.19:115][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.01.22-12.36.19:115][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Engine.ini]
+[2020.01.22-12.36.19:115][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.01.22-12.36.19:115][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Engine.ini]
+[2020.01.22-12.36.19:115][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Engine.ini]
+[2020.01.22-12.36.19:115][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.01.22-12.36.19:115][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.01.22-12.36.19:115][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Engine.ini]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.01.22-12.36.19:116][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Engine.ini]
+[2020.01.22-12.36.19:116][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Engine.ini]
+[2020.01.22-12.36.19:126][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
+[2020.01.22-12.36.19:126][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.22-12.36.19:126][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.22-12.36.19:126][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
+[2020.01.22-12.36.19:126][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.01.22-12.36.19:126][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
+[2020.01.22-12.36.19:126][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.22-12.36.19:126][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.22-12.36.19:126][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.22-12.36.19:126][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.22-12.36.19:126][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.22-12.36.19:126][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.22-12.36.19:126][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.22-12.36.19:126][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.22-12.36.19:126][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.01.22-12.36.19:127][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.01.22-12.36.19:127][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.22-12.36.19:127][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.22-12.36.19:131][  0]LogHAL: Display: Platform has ~ 8 GB [8469159936 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.01.22-12.36.19:131][  0]LogInit: Going up to parent DeviceProfile []
+[2020.01.22-12.36.19:131][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
+[2020.01.22-12.36.19:131][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.22-12.36.19:131][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.22-12.36.19:131][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
+[2020.01.22-12.36.19:131][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.01.22-12.36.19:131][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
+[2020.01.22-12.36.19:131][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.22-12.36.19:131][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.22-12.36.19:131][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.22-12.36.19:131][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.22-12.36.19:131][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.01.22-12.36.19:132][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Scalability.ini]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.01.22-12.36.19:133][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/Github/Jnckr-Lthr/Saved/Config/Windows/Engine.ini]
+[2020.01.22-12.36.19:133][  0]LogInit: Computer: FABIONOTEBOOK
+[2020.01.22-12.36.19:134][  0]LogInit: User: morfa
+[2020.01.22-12.36.19:134][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.01.22-12.36.19:134][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.22-12.36.19:134][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.01.22-12.36.19:134][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.22-12.36.19:134][  0]LogMemory: Process Physical Memory: 104.72 MB used, 104.73 MB peak
+[2020.01.22-12.36.19:134][  0]LogMemory: Process Virtual Memory: 102.60 MB used, 102.60 MB peak
+[2020.01.22-12.36.19:134][  0]LogMemory: Physical Memory: 5855.56 MB used,  2221.26 MB free, 8076.82 MB total
+[2020.01.22-12.36.19:134][  0]LogMemory: Virtual Memory: 4664.93 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2020.01.22-12.36.19:138][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.01.22-12.36.19:182][  0]LogInit: Using OS detected language (en-US).
+[2020.01.22-12.36.19:182][  0]LogInit: Using OS detected locale (en-US).
+[2020.01.22-12.36.19:183][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.01.22-12.36.19:560][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.01.22-12.36.19:560][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.01.22-12.36.19:629][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.22-12.36.19:629][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.22-12.36.19:723][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2020.01.22-12.36.19:723][  0]LogD3D11RHI:       1979/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.01.22-12.36.19:734][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.01.22-12.36.19:734][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.01.22-12.36.19:739][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.22-12.36.19:739][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.22-12.36.19:739][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.22-12.36.19:791][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.22-12.36.19:791][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2020.01.22-12.36.19:791][  0]LogWindows: EnumDisplayDevices:
+[2020.01.22-12.36.19:791][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.01.22-12.36.19:792][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2020.01.22-12.36.19:792][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.01.22-12.36.19:793][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.01.22-12.36.19:793][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2020.01.22-12.36.19:793][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.01.22-12.36.19:793][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.01.22-12.36.19:793][  0]LogRHI: Texture pool is 1385 MB (70% of 1979 MB)
+[2020.01.22-12.36.19:845][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.22-12.36.19:859][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.22-12.36.20:331][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.01.22-12.36.20:340][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.01.22-12.36.20:350][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.01.22-12.36.20:354][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.01.22-12.36.20:354][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.01.22-12.36.20:364][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.01.22-12.36.20:421][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (F:/Github/Jnckr-Lthr/Intermediate/Shaders/WorkingDirectory/17304/).
+[2020.01.22-12.36.20:422][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/morfa/AppData/Local/Temp/UnrealShaderWorkingDir/581276AB4F505AFEEFC949805C79FFD0/'.
+[2020.01.22-12.36.20:424][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.01.22-12.36.20:424][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.01.22-12.36.20:424][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.01.22-12.36.21:103][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.01.22-12.36.21:182][  0]LogDerivedDataCache: Loaded boot cache 0.08s 73MB C:/Users/morfa/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.01.22-12.36.21:182][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/morfa/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.01.22-12.36.21:183][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Github/Jnckr-Lthr/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.22-12.36.21:183][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.22-12.36.21:183][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Github/Jnckr-Lthr/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.22-12.36.21:183][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.22-12.36.21:197][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.22-12.36.21:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.22-12.36.21:197][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.01.22-12.36.21:199][  0]LogDerivedDataCache: Using Local data cache path C:/Users/morfa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.22-12.36.21:199][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.01.22-12.36.21:199][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.01.22-12.36.21:225][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.22-12.36.21:228][  0]LogSlate: Using FreeType 2.6.0
+[2020.01.22-12.36.21:229][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.22-12.36.21:389][  0]LogInit: Using OS detected language (en-US).
+[2020.01.22-12.36.21:389][  0]LogInit: Using OS detected locale (en-US).
+[2020.01.22-12.36.21:389][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2020.01.22-12.36.21:389][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2020.01.22-12.36.21:389][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.01.22-12.36.21:389][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.01.22-12.36.21:391][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2020.01.22-12.36.21:396][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2020.01.22-12.36.21:648][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.000966 seconds
+[2020.01.22-12.36.21:707][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.22-12.36.21:761][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.22-12.36.21:761][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.01.22-12.36.21:761][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.01.22-12.36.21:761][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.01.22-12.36.21:761][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.01.22-12.36.21:877][  0]LogNetVersion: JaxAndLegger 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2648958118)
+[2020.01.22-12.36.22:490][  0]LogMoviePlayer: Initializing movie player
+[2020.01.22-12.36.22:605][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.22-12.36.22:607][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.22-12.36.22:647][  0]SourceControl: Source control is disabled
+[2020.01.22-12.36.22:647][  0]SourceControl: Source control is disabled
+[2020.01.22-12.36.22:648][  0]SourceControl: Source control is disabled
+[2020.01.22-12.36.22:700][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.22-12.36.22:919][  0]LogOcInput: OculusInput pre-init called
+[2020.01.22-12.36.22:930][  0]LogUObjectArray: 48866 objects as part of root set at end of initial load.
+[2020.01.22-12.36.22:930][  0]LogUObjectAllocator: 8609784 out of 0 bytes used by permanent object pool.
+[2020.01.22-12.36.22:930][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.22-12.36.22:999][  0]LogEngine: Initializing Engine...
+[2020.01.22-12.36.23:001][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.22-12.36.23:003][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.01.22-12.36.23:210][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.01.22-12.36.23:253][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.22-12.36.23:327][  0]LogInit: FAudioDevice initialized.
+[2020.01.22-12.36.23:328][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.01.22-12.36.23:336][  0]LogInit: Texture streaming: Enabled
+[2020.01.22-12.36.23:654][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.36.23:656][  0]LogInit: Display: Game Engine Initialized.
+[2020.01.22-12.36.23:718][  0]LogInit: Display: Starting Game.
+[2020.01.22-12.36.23:718][  0]LogNet: Browse: /Game/Maps/MainMenu?Name=Player
+[2020.01.22-12.36.23:718][  0]LogLoad: LoadMap: /Game/Maps/MainMenu?Name=Player
+[2020.01.22-12.36.23:718][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2020.01.22-12.36.23:720][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.36.23:747][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.01.22-12.36.23:785][  0]LogUObjectGlobals: Warning: While loading 'F:/Github/Jnckr-Lthr/Content/JandL_Models/BuckDock/duckblock_sm__1_.uasset' failed to load '/Game/JandL_Models/lambert1': Can't find file.
+[2020.01.22-12.36.23:785][  0]LogUObjectGlobals: Warning: While loading 'F:/Github/Jnckr-Lthr/Content/JandL_Models/BuckDock/duckblock_sm__1_.uasset' failed to load '/Game/JandL_Models/lambert1': Can't find file.
+[2020.01.22-12.36.23:785][  0]LogUObjectGlobals: Warning: While loading 'F:/Github/Jnckr-Lthr/Content/JandL_Models/BuckDock/duckblock_sm__1_.uasset' failed to load '/Game/JandL_Models/lambert1': Can't find file.
+[2020.01.22-12.36.23:785][  0]LogUObjectGlobals: Warning: While loading 'F:/Github/Jnckr-Lthr/Content/JandL_Models/BuckDock/duckblock_sm__1_.uasset' failed to load '/Game/JandL_Models/lambert1': Can't find file.
+[2020.01.22-12.36.23:881][  0]LogAIModule: Creating AISystem for world MainMenu
+[2020.01.22-12.36.23:881][  0]LogLoad: Game class is 'GameMode'
+[2020.01.22-12.36.23:885][  0]LogWorld: Bringing World /Game/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2020.01.22-13.36.23
+[2020.01.22-12.36.23:885][  0]LogWorld: Bringing up level for play took: 0.002603
+[2020.01.22-12.36.23:886][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.01.22-12.36.23:888][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.01.22-12.36.23:888][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.01.22-12.36.23:888][  0]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.01.22-12.36.23:890][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.01.22-12.36.23:890][  0]LogLoad: Took 0.171884 seconds to LoadMap(/Game/Maps/MainMenu)
+[2020.01.22-12.36.23:923][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.01.22-12.36.23:924][  0]LogLoad: (Engine Initialization) Total time: 7.65 seconds
+[2020.01.22-12.36.23:924][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.01.22-12.36.23:966][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.22-12.36.23:972][  0]LogAudio: Warning: Detected orphaned looping sound 'MenuMusic'.
+[2020.01.22-12.36.24:052][  0]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:1).
+[2020.01.22-12.36.24:091][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:2).
+[2020.01.22-12.36.35:137][685]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-12.36.35:238][691]LogSlate: Took 0.000414 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.22-12.36.37:195][812]LogInit: WinSock: I am FabioNotebook (192.168.129.98:0)
+[2020.01.22-12.36.37:354][812]LogPackageName: SearchForPackageOnDisk took   0.157s to resolve Lobby.umap.
+[2020.01.22-12.36.37:355][812]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2020.01.22-12.36.37:355][812]LogGameState: Match State Changed from InProgress to LeavingMap
+[2020.01.22-12.36.37:502][812]LogPackageName: SearchForPackageOnDisk took   0.147s to resolve Lobby.umap.
+[2020.01.22-12.36.37:502][812]LogNet: Browse: /Game/Maps/Lobby?Listen
+[2020.01.22-12.36.37:502][812]LogLoad: LoadMap: /Game/Maps/Lobby?Listen
+[2020.01.22-12.36.37:502][812]LogWorld: BeginTearingDown for /Game/Maps/MainMenu
+[2020.01.22-12.36.37:503][812]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.36.37:562][812]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.01.22-12.36.37:983][812]LogBlueprint: Warning: [Compiler 0_Base] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2020.01.22-12.36.37:983][812]LogBlueprint: Warning: [Compiler 0_Base] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2020.01.22-12.36.38:621][812]LogAIModule: Creating AISystem for world Lobby
+[2020.01.22-12.36.38:621][812]LogLoad: Game class is 'LobbyGM_C'
+[2020.01.22-12.36.38:621][812]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.01.22-12.36.38:622][812]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2020.01.22-12.36.38:622][812]LogTemp: Display: ParseSettings for GameNetDriver
+[2020.01.22-12.36.38:622][812]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.01.22-12.36.38:622][812]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.01.22-12.36.38:624][812]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.01.22-12.36.38:624][812]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.01.22-12.36.38:624][812]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2020.01.22-12.36.38:627][812]LogWorld: Bringing World /Game/Maps/Lobby.Lobby up for play (max tick rate 0) at 2020.01.22-13.36.38
+[2020.01.22-12.36.38:627][812]LogWorld: Bringing up level for play took: 0.001541
+[2020.01.22-12.36.38:629][812]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2020.01.22-12.36.38:645][812]LogLoad: Took 1.142387 seconds to LoadMap(/Game/Maps/Lobby)
+[2020.01.22-12.37.11:232][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-12.37.11:329][827]LogScript: Warning: Script Msg: DestroySession - Invalid player state
+[2020.01.22-12.37.11:894][862]LogScript: Warning: Script Msg: DestroySession - Invalid player state
+[2020.01.22-12.37.13:554][965]LogScript: Warning: Script Msg: DestroySession - Invalid player state
+[2020.01.22-12.37.13:603][968]LogScript: Warning: Script Msg: DestroySession - Invalid player state
+[2020.01.22-12.37.14:761][ 36]LogSlate: Window 'JaxAndLegger (64-bit Development PCD3D_SM5) ' being destroyed
+[2020.01.22-12.37.14:762][ 36]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.01.22-12.37.14:766][ 36]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.01.22-12.37.14:767][ 36]LogScript: Warning: Script Msg: DestroySession - Invalid player state
+[2020.01.22-12.37.14:768][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.37.14:768][ 36]LogEngine: All Windows Closed
+[2020.01.22-12.37.14:768][ 36]LogWindows: FPlatformMisc::RequestExit(0)
+[2020.01.22-12.37.14:781][ 37]LogWorld: BeginTearingDown for /Game/Maps/Lobby
+[2020.01.22-12.37.14:781][ 37]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2020.01.22-12.37.14:781][ 37]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2020.01.22-12.37.14:781][ 37]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2020.01.22-12.37.14:781][ 37]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.37.15:031][ 37]LogExit: Preparing to exit.
+[2020.01.22-12.37.15:031][ 37]LogMoviePlayer: Shutting down movie player
+[2020.01.22-12.37.15:654][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.37.15:665][ 37]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.01.22-12.37.15:673][ 37]LogExit: Game engine shut down
+[2020.01.22-12.37.15:764][ 37]LogExit: Object subsystem successfully closed.
+[2020.01.22-12.37.15:781][ 37]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.01.22-12.37.15:792][ 37]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (410)
+[2020.01.22-12.37.15:792][ 37]LogModuleManager: Shutting down and abandoning module SequenceRecorder (408)
+[2020.01.22-12.37.15:792][ 37]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2020.01.22-12.37.15:792][ 37]LogModuleManager: Shutting down and abandoning module AutomationWorker (404)
+[2020.01.22-12.37.15:792][ 37]LogModuleManager: Shutting down and abandoning module Voice (402)
+[2020.01.22-12.37.15:792][ 37]LogModuleManager: Shutting down and abandoning module AIModule (400)
+[2020.01.22-12.37.15:792][ 37]LogModuleManager: Shutting down and abandoning module GameplayDebugger (399)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module AITestSuite (397)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module NavigationSystem (395)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module OculusMR (392)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (390)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (388)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module WebMMedia (386)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (384)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (382)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (380)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (378)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (376)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (374)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module CharacterAI (372)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module SessionServices (370)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (368)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module LiveCoding (366)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module LevelSequence (364)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (358)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module PortalServices (356)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module PortalRpc (354)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module MessagingRpc (352)
+[2020.01.22-12.37.15:793][ 37]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (350)
+[2020.01.22-12.37.15:796][ 37]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2020.01.22-12.37.15:798][ 37]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2020.01.22-12.37.15:798][ 37]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2020.01.22-12.37.15:798][ 37]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
+[2020.01.22-12.37.15:798][ 37]LogModuleManager: Shutting down and abandoning module OculusInput (340)
+[2020.01.22-12.37.15:798][ 37]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
+[2020.01.22-12.37.15:798][ 37]LogModuleManager: Shutting down and abandoning module EditableMesh (336)
+[2020.01.22-12.37.15:798][ 37]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2020.01.22-12.37.15:798][ 37]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2020.01.22-12.37.15:798][ 37]LogModuleManager: Shutting down and abandoning module AudioCapture (330)
+[2020.01.22-12.37.15:798][ 37]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (328)
+[2020.01.22-12.37.15:798][ 37]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (326)
+[2020.01.22-12.37.15:798][ 37]LogModuleManager: Shutting down and abandoning module AppleImageUtils (324)
+[2020.01.22-12.37.15:798][ 37]LogModuleManager: Shutting down and abandoning module AndroidPermission (322)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (320)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (318)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module MediaCompositing (316)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module ImgMedia (314)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (312)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (310)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (308)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module HTML5Networking (306)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (304)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (303)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module GeometryCache (300)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (299)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module BackChannel (296)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module AutomationUtils (294)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module VariantManagerContent (292)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (290)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module CryptoKeys (288)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (286)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module HotReload (285)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (284)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (280)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module UObjectPlugin (278)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (276)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (274)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module SourceControl (273)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (270)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (268)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module JaxAndLegger (266)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module SignificanceManager (264)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (262)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (260)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (256)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module ActorSequence (254)
+[2020.01.22-12.37.15:799][ 37]LogModuleManager: Shutting down and abandoning module UdpMessaging (252)
+[2020.01.22-12.37.15:900][ 37]LogModuleManager: Shutting down and abandoning module TcpMessaging (250)
+[2020.01.22-12.37.16:635][ 37]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (248)
+[2020.01.22-12.37.16:635][ 37]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (246)
+[2020.01.22-12.37.16:635][ 37]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (244)
+[2020.01.22-12.37.16:635][ 37]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (242)
+[2020.01.22-12.37.16:636][ 37]LogModuleManager: Shutting down and abandoning module MagicLeapController (240)
+[2020.01.22-12.37.16:636][ 37]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.01.22-12.37.16:636][ 37]LogModuleManager: Shutting down and abandoning module MagicLeapAR (238)
+[2020.01.22-12.37.16:636][ 37]LogModuleManager: Shutting down and abandoning module AugmentedReality (237)
+[2020.01.22-12.37.16:636][ 37]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
+[2020.01.22-12.37.16:636][ 37]LogModuleManager: Shutting down and abandoning module FacialAnimation (232)
+[2020.01.22-12.37.16:636][ 37]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (230)
+[2020.01.22-12.37.16:636][ 37]LogModuleManager: Shutting down and abandoning module TreeMap (229)
+[2020.01.22-12.37.16:636][ 37]LogModuleManager: Shutting down and abandoning module AnimationSharing (226)
+[2020.01.22-12.37.16:636][ 37]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (224)
+[2020.01.22-12.37.16:636][ 37]LogModuleManager: Shutting down and abandoning module Paper2D (222)
+[2020.01.22-12.37.16:636][ 37]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (220)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (218)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (216)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module PacketHandler (214)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module Overlay (206)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module OverlayEditor (205)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module VREditor (202)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module StringTableEditor (200)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (198)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (196)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module FunctionalTesting (194)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (192)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (191)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module UMG (188)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module UMGEditor (187)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module Sequencer (186)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module MessageLog (183)
+[2020.01.22-12.37.16:638][ 37]LogModuleManager: Shutting down and abandoning module SlateReflector (178)
+[2020.01.22-12.37.16:640][ 37]LogModuleManager: Shutting down and abandoning module Slate (176)
+[2020.01.22-12.37.16:640][ 37]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (174)
+[2020.01.22-12.37.16:640][ 37]LogModuleManager: Shutting down and abandoning module EditorStyle (172)
+[2020.01.22-12.37.16:640][ 37]LogModuleManager: Shutting down and abandoning module UnrealEd (170)
+[2020.01.22-12.37.16:640][ 37]LogModuleManager: Shutting down and abandoning module MRMesh (168)
+[2020.01.22-12.37.16:640][ 37]LogModuleManager: Shutting down and abandoning module Messaging (166)
+[2020.01.22-12.37.16:640][ 37]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2020.01.22-12.37.16:640][ 37]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2020.01.22-12.37.16:640][ 37]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2020.01.22-12.37.16:641][ 37]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2020.01.22-12.37.16:641][ 37]LogModuleManager: Shutting down and abandoning module Core (156)
+[2020.01.22-12.37.16:641][ 37]LogModuleManager: Shutting down and abandoning module KismetCompiler (154)
+[2020.01.22-12.37.16:641][ 37]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2020.01.22-12.37.16:641][ 37]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (151)
+[2020.01.22-12.37.16:641][ 37]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (150)
+[2020.01.22-12.37.16:641][ 37]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (149)
+[2020.01.22-12.37.16:641][ 37]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (147)
+[2020.01.22-12.37.16:641][ 37]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (145)
+[2020.01.22-12.37.16:641][ 37]LogModuleManager: Shutting down and abandoning module MaterialBaking (141)
+[2020.01.22-12.37.16:641][ 37]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (136)
+[2020.01.22-12.37.16:641][ 37]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (134)
+[2020.01.22-12.37.16:641][ 37]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2020.01.22-12.37.16:766][ 37]LogDerivedDataCache: Shutdown
+[2020.01.22-12.37.16:766][ 37]LogModuleManager: Shutting down and abandoning module XGEController (130)
+[2020.01.22-12.37.16:766][ 37]LogModuleManager: Shutting down and abandoning module TargetPlatform (128)
+[2020.01.22-12.37.16:766][ 37]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (127)
+[2020.01.22-12.37.16:766][ 37]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (125)
+[2020.01.22-12.37.16:766][ 37]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (123)
+[2020.01.22-12.37.16:766][ 37]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (121)
+[2020.01.22-12.37.16:766][ 37]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (119)
+[2020.01.22-12.37.16:766][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (117)
+[2020.01.22-12.37.16:766][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (115)
+[2020.01.22-12.37.16:766][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (113)
+[2020.01.22-12.37.16:766][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (111)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (109)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module ImageWrapper (108)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (105)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (103)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (101)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (99)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (97)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (95)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (93)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (91)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module SteamVR (78)
+[2020.01.22-12.37.16:767][ 37]LogHMD: Freeing OpenVRDLLHandle.
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2020.01.22-12.37.16:767][ 37]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2020.01.22-12.37.16:768][ 37]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2020.01.22-12.37.16:768][ 37]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2020.01.22-12.37.16:801][ 37]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2020.01.22-12.37.16:829][ 37]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2020.01.22-12.37.16:831][ 37]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2020.01.22-12.37.16:832][ 37]LogModuleManager: Shutting down and abandoning module Media (51)
+[2020.01.22-12.37.16:832][ 37]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2020.01.22-12.37.16:832][ 37]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2020.01.22-12.37.16:835][ 37]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2020.01.22-12.37.16:835][ 37]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2020.01.22-12.37.16:835][ 37]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.01.22-12.37.16:835][ 37]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.01.22-12.37.16:835][ 37]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.01.22-12.37.16:835][ 37]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.01.22-12.37.16:835][ 37]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.01.22-12.37.16:835][ 37]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.01.22-12.37.16:835][ 37]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.01.22-12.37.16:835][ 37]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.01.22-12.37.16:836][ 37]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.01.22-12.37.16:836][ 37]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.01.22-12.37.16:836][ 37]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.01.22-12.37.16:836][ 37]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.01.22-12.37.16:836][ 37]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.01.22-12.37.16:836][ 37]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.01.22-12.37.16:836][ 37]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.01.22-12.37.16:836][ 37]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.01.22-12.37.16:836][ 37]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.01.22-12.37.16:836][ 37]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.01.22-12.37.16:836][ 37]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.01.22-12.37.16:836][ 37]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.01.22-12.37.16:837][ 37]LogD3D11RHI: Shutdown
+[2020.01.22-12.37.16:837][ 37]LogD3D11RHI: CleanupD3DDevice
+[2020.01.22-12.37.16:837][ 37]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.01.22-12.37.16:837][ 37]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.01.22-12.37.16:837][ 37]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.01.22-12.37.16:922][ 37]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.01.22-12.37.16:934][ 37]LogExit: Exiting.
+[2020.01.22-12.37.16:947][ 37]Log file closed, 01/22/20 13:37:16
