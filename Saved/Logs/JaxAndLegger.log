@@ -611,3 +611,1162 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.22-10.27.45:958][346]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenuB75104024BB48DC8BBADAAB8FD19F9BC.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu.umap'
 [2020.01.22-10.27.46:023][346]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu_BuiltData5424F1D340C86C0EFB1DF582E853BC97.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu_BuiltData.uasset'
 [2020.01.22-10.30.08:271][267]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/LevelMusic51C8774C431EC5A5B3ECC89DDCD7EB07.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/Music/LevelMusic.uasset'
+[2020.01.22-10.32.28:799][757]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.01.22-10.32.28:931][757]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu1358920A4CCA6A102444169EF695A2FA.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu.umap'
+[2020.01.22-10.32.29:008][757]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu_BuiltData7D3025134435E5A7B5178CB6D88AC471.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu_BuiltData.uasset'
+[2020.01.22-10.33.19:179][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Step" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset" SILENT=true
+[2020.01.22-10.33.19:189][229]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Step3268DC0D4A7BCAF56576F4A30FB14C69.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset'
+[2020.01.22-10.33.45:344][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.01.22-10.33.45:480][615]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenuBDB7DB254E9B8E0D3C85BFA3E4B993DF.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu.umap'
+[2020.01.22-10.33.45:545][615]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu_BuiltDataDCE16E184AB4D09C0E5A92BCE64CE038.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu_BuiltData.uasset'
+[2020.01.22-10.33.46:120][649]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-10.33.46:150][649]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-10.33.46:150][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-10.33.46:150][649]PIE: New page: PIE session: MainMenu (22 Jan 2020 12:33:46)
+[2020.01.22-10.33.46:150][649]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2020.01.22-10.33.46:160][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009768s)
+[2020.01.22-10.33.46:161][649]LogAIModule: Creating AISystem for world MainMenu
+[2020.01.22-10.33.46:161][649]LogPlayLevel: PIE: World Init took: (0.001288s)
+[2020.01.22-10.33.46:161][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.011236s)
+[2020.01.22-10.33.46:187][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.01.22-10.33.46:200][649]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-10.33.46:217][649]LogInit: FAudioDevice initialized.
+[2020.01.22-10.33.46:225][649]LogLoad: Game class is 'GameMode'
+[2020.01.22-10.33.46:226][649]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2020.01.22-11.33.46
+[2020.01.22-10.33.46:227][649]LogWorld: Bringing up level for play took: 0.000635
+[2020.01.22-10.33.46:227][649]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.01.22-10.33.46:228][649]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.01.22-10.33.46:228][649]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.01.22-10.33.46:228][649]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.01.22-10.33.46:229][649]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.01.22-10.33.46:229][649]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.053
+[2020.01.22-10.33.46:230][649]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-10.33.46:254][649]LogAudio: Warning: Detected orphaned looping sound 'MenuMusic'.
+[2020.01.22-10.34.11:502][163]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-10.34.11:570][167]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-10.34.11:570][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-10.34.11:570][167]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2020.01.22-10.34.11:570][167]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-10.34.11:577][167]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-10.34.11:577][167]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-10.34.11:604][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-10.34.11:607][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.01.22-10.34.11:674][171]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.01.22-10.34.16:277][443]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.01.22-10.34.16:401][443]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu06452AB0474C2F28FB3EF5806F1A554A.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu.umap'
+[2020.01.22-10.34.16:469][443]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu_BuiltDataD063D00943473672BBECD6865EAC0C6A.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu_BuiltData.uasset'
+[2020.01.22-10.34.31:600][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-10.34.31:684][339]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-10.34.31:711][339]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-10.34.31:711][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-10.34.31:711][339]PIE: New page: PIE session: MainMenu (22 Jan 2020 12:34:31)
+[2020.01.22-10.34.31:712][339]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2020.01.22-10.34.31:722][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010070s)
+[2020.01.22-10.34.31:723][339]LogAIModule: Creating AISystem for world MainMenu
+[2020.01.22-10.34.31:723][339]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2020.01.22-10.34.31:723][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.011371s)
+[2020.01.22-10.34.31:747][339]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.01.22-10.34.31:761][339]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-10.34.31:771][339]LogInit: FAudioDevice initialized.
+[2020.01.22-10.34.31:781][339]LogLoad: Game class is 'GameMode'
+[2020.01.22-10.34.31:782][339]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2020.01.22-11.34.31
+[2020.01.22-10.34.31:782][339]LogWorld: Bringing up level for play took: 0.000511
+[2020.01.22-10.34.31:783][339]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.01.22-10.34.31:784][339]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.01.22-10.34.31:784][339]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.01.22-10.34.31:784][339]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.01.22-10.34.31:785][339]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.01.22-10.34.31:785][339]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.392
+[2020.01.22-10.34.31:785][339]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-10.34.31:808][339]LogAudio: Warning: Detected orphaned looping sound 'MenuMusic'.
+[2020.01.22-10.35.10:836][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-10.35.11:321][709]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-10.35.11:322][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-10.35.11:322][709]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2020.01.22-10.35.11:322][709]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-10.35.11:336][709]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-10.35.11:336][709]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-10.35.11:366][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-10.35.11:370][709]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.01.22-10.35.11:422][712]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.01.22-10.35.12:328][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.01.22-10.35.12:480][763]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu181F954D464D9A180242CF8834560480.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu.umap'
+[2020.01.22-10.35.12:548][763]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu_BuiltData8BF7F06446ED5FA8E33029AC868C5C3B.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu_BuiltData.uasset'
+[2020.01.22-10.37.30:247][445]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/LevelMusicC6BE39FB4FB6E607EF9698A4F492C4D1.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/Music/LevelMusic.uasset'
+[2020.01.22-10.37.33:268][618]LogSlate: Window 'LevelMusic' being destroyed
+[2020.01.22-10.37.33:273][618]LogSlate: Window 'LevelMusic' being destroyed
+[2020.01.22-10.38.00:050][205]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Mannequin/Animations/ThirdPersonRun.ThirdPersonRun
+[2020.01.22-10.38.00:865][205]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.01.22-10.38.01:447][205]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.01.22-10.38.01:463][205]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2020.01.22-10.38.01:704][205]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.01.22-10.38.02:309][205]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.01.22-10.38.26:098][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-10.38.39:745][402]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.01.22-10.39.10:901][121]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonRun01B508BF425DD44CBE6C589D6793B98D.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2020.01.22-10.39.40:441][814]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonRun48EC6C5247960178D65975BD75D39674.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2020.01.22-10.39.52:338][455]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonRunE70EE8BF43BE62DC7D8B37ABE8AD5D6D.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2020.01.22-10.40.02:420][  5]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonRun96DCC68D4D11DA999FE73DA7AF283200.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2020.01.22-10.40.10:774][448]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonRun0EDE3F4249D973950066E883592F7A63.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2020.01.22-10.40.27:246][975]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonRun83CE5BC746C47B510923C7BAA51FE68A.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2020.01.22-10.40.28:005][ 14]LogSlate: Window 'ThirdPersonRun' being destroyed
+[2020.01.22-10.40.28:012][ 14]LogSlate: Window 'ThirdPersonRun' being destroyed
+[2020.01.22-10.40.28:440][ 14]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-10.40.28:506][ 14]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-10.40.28:621][ 14]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-10.40.31:652][193]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Mannequin/Animations/ThirdPersonWalk.ThirdPersonWalk
+[2020.01.22-10.40.31:662][193]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.01.22-10.40.31:719][193]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.01.22-10.40.32:886][193]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.01.22-10.40.37:434][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-10.40.59:393][685]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonWalk2BD326FC44FED782940829B38BC60917.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonWalk.uasset'
+[2020.01.22-10.41.34:539][646]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonWalkF1C7ABBA481E3E330CA99486B3CE8E94.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonWalk.uasset'
+[2020.01.22-11.35.41:944][748]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{778c7ac0-15e0-490b-9215-80db755854f1} was removed. Shutting down audio device.
+[2020.01.22-11.35.43:547][748]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.01.22-11.35.46:006][750]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-11.35.54:240][787]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-11.36.10:315][607]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonWalk381A72BB44EA284C174DFFA170BC1CDA.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonWalk.uasset'
+[2020.01.22-11.36.13:708][798]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonWalk5E080FDF4C5AD5EAC4FA669D280C566F.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonWalk.uasset'
+[2020.01.22-11.36.14:336][834]LogSlate: Window 'ThirdPersonWalk' being destroyed
+[2020.01.22-11.36.14:344][834]LogSlate: Window 'ThirdPersonWalk' being destroyed
+[2020.01.22-11.36.14:344][834]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-11.36.14:401][834]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-11.36.14:514][834]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-11.36.18:919][ 96]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Mannequin/Animations/ThirdPersonRun.ThirdPersonRun
+[2020.01.22-11.36.18:928][ 96]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.01.22-11.36.18:985][ 96]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.01.22-11.36.19:655][ 96]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.01.22-11.37.00:641][414]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonRunFE840282449C16A974FB36827FC58B8B.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2020.01.22-11.37.04:663][637]LogSlate: Window 'ThirdPersonRun' being destroyed
+[2020.01.22-11.37.04:673][637]LogSlate: Window 'ThirdPersonRun' being destroyed
+[2020.01.22-11.37.04:673][637]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-11.37.04:732][637]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-11.37.04:842][637]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-11.37.13:569][154]LogAssetEditorManager: Opening Asset editor for SoundCue /Game/Sounds/SFX/Step.Step
+[2020.01.22-11.37.44:738][ 45]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\Robot-Footstep_2.mp3)
+[2020.01.22-11.37.44:762][ 45]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\Robot-Footstep_4.mp3)
+[2020.01.22-11.37.44:772][ 45]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\Robot-Footstep_5.mp3)
+[2020.01.22-11.37.44:783][ 45]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\Robot-Footstep_6.mp3)
+[2020.01.22-11.37.44:792][ 45]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\Robot-Footstep_7.mp3)
+[2020.01.22-11.37.44:801][ 45]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\Robot-Footstep_8.mp3)
+[2020.01.22-11.37.44:811][ 45]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\Robot-Footstep-3.mp3)
+[2020.01.22-11.37.44:822][ 45]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\Robot-Footstep_1.mp3)
+[2020.01.22-11.38.43:492][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.01.22-11.38.46:063][572]LogSlate: Window 'Delete Assets' being destroyed
+[2020.01.22-11.38.46:397][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.01.22-11.38.46:413][572]LogLinker: Warning: Failed to load '/Game/Sounds/SFX/SoundFiles/Steps/Robot-Footstep-3': Can't find file.
+[2020.01.22-11.38.46:414][572]LogLinker: Warning: Failed to load '/Game/Sounds/SFX/SoundFiles/Steps/Robot-Footstep-3': Can't find file.
+[2020.01.22-11.38.46:414][572]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Sounds/SFX/SoundFiles/Steps/Robot-Footstep-3.Robot-Footstep-3'
+[2020.01.22-11.40.21:979][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.01.22-11.40.22:105][ 22]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenuDD763697417EC01420B78D97F36D58BC.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu.umap'
+[2020.01.22-11.40.22:174][ 22]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu_BuiltData134852A14C3567498AF185A4D058C005.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu_BuiltData.uasset'
+[2020.01.22-11.40.22:681][ 52]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-11.40.22:707][ 52]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-11.40.22:707][ 52]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-11.40.22:707][ 52]PIE: New page: PIE session: MainMenu (22 Jan 2020 13:40:22)
+[2020.01.22-11.40.22:707][ 52]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2020.01.22-11.40.22:716][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009639s)
+[2020.01.22-11.40.22:717][ 52]LogAIModule: Creating AISystem for world MainMenu
+[2020.01.22-11.40.22:717][ 52]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2020.01.22-11.40.22:717][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.010837s)
+[2020.01.22-11.40.22:742][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.01.22-11.40.22:757][ 52]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-11.40.22:767][ 52]LogInit: FAudioDevice initialized.
+[2020.01.22-11.40.22:774][ 52]LogLoad: Game class is 'GameMode'
+[2020.01.22-11.40.22:775][ 52]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2020.01.22-12.40.22
+[2020.01.22-11.40.22:775][ 52]LogWorld: Bringing up level for play took: 0.000588
+[2020.01.22-11.40.22:776][ 52]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.01.22-11.40.22:777][ 52]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.01.22-11.40.22:777][ 52]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.01.22-11.40.22:777][ 52]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.01.22-11.40.22:779][ 52]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.01.22-11.40.22:779][ 52]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.628
+[2020.01.22-11.40.22:779][ 52]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-11.40.22:802][ 52]LogAudio: Warning: Detected orphaned looping sound 'MenuMusic'.
+[2020.01.22-11.41.44:255][870]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-11.41.44:323][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-11.41.44:323][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-11.41.44:323][874]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2020.01.22-11.41.44:324][874]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-11.41.44:330][874]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-11.41.44:330][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-11.41.44:357][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-11.41.44:360][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.01.22-11.41.44:427][878]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.01.22-11.41.45:750][954]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.01.22-11.41.45:871][954]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu857AE2154AC83A722112A1A62BF08CFE.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu.umap'
+[2020.01.22-11.41.45:947][954]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu_BuiltDataE1A226EB40FA00331909C79CF0F2CE5D.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu_BuiltData.uasset'
+[2020.01.22-11.43.53:392][140]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\WAV\Robot-Footstep_2.wav)
+[2020.01.22-11.43.53:406][140]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\WAV\Robot-Footstep_4.wav)
+[2020.01.22-11.43.53:412][140]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\WAV\Robot-Footstep_5.wav)
+[2020.01.22-11.43.53:416][140]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\WAV\Robot-Footstep_6.wav)
+[2020.01.22-11.43.53:421][140]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\WAV\Robot-Footstep_7.wav)
+[2020.01.22-11.43.53:425][140]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\WAV\Robot-Footstep_8.wav)
+[2020.01.22-11.43.53:430][140]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\WAV\Robot-Footstep-3.wav)
+[2020.01.22-11.43.53:434][140]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\WAV\Robot-Footstep_1.wav)
+[2020.01.22-11.43.55:490][218]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Robot-Footstep_1...
+[2020.01.22-11.43.56:135][218]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 133632 while cooking SoundWave /Game/Sounds/SFX/SoundFiles/Steps/Robot-Footstep_1.Robot-Footstep_1.
+[2020.01.22-11.43.58:453][355]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Robot-Footstep_176EE27014097771213BFA184AB38BD92.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/SoundFiles/Steps/Robot-Footstep_1.uasset'
+[2020.01.22-11.43.58:475][355]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Robot-Footstep_240D27A5F4C4BD72AA044949AF0C8068E.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/SoundFiles/Steps/Robot-Footstep_2.uasset'
+[2020.01.22-11.43.58:491][355]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Robot-Footstep_44AEB21D44B7C75D339D80FAFBF070E5A.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/SoundFiles/Steps/Robot-Footstep_4.uasset'
+[2020.01.22-11.43.58:508][355]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Robot-Footstep_5608909194F6C3935FD7E09A0728F0D47.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/SoundFiles/Steps/Robot-Footstep_5.uasset'
+[2020.01.22-11.43.58:526][355]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Robot-Footstep_61D7F610B461E85EE54401B854D6C1311.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/SoundFiles/Steps/Robot-Footstep_6.uasset'
+[2020.01.22-11.43.58:570][355]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Robot-Footstep_786A8ECE843720754FDFB31A063BE9A4E.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/SoundFiles/Steps/Robot-Footstep_7.uasset'
+[2020.01.22-11.43.58:604][355]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Robot-Footstep_8281D49BA4A6FBCC64ADA4D827D07D23A.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/SoundFiles/Steps/Robot-Footstep_8.uasset'
+[2020.01.22-11.43.58:629][355]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Robot-Footstep-3F65A77404E016720A5BF36A0FC6A754E.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/SoundFiles/Steps/Robot-Footstep-3.uasset'
+[2020.01.22-11.44.11:220][ 24]LogEditorTransaction: Undo Move Node
+[2020.01.22-11.44.42:105][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Step" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset" SILENT=true
+[2020.01.22-11.44.42:128][859]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Step90A5114E49384935BF9CE8A0C7D8C887.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset'
+[2020.01.22-11.44.44:389][991]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.01.22-11.44.44:503][991]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu71A61E864BA47EFA98E31C9F53A0AA9B.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu.umap'
+[2020.01.22-11.44.44:570][991]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu_BuiltData0201A83E461B42D7D6632E85EBB0479C.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu_BuiltData.uasset'
+[2020.01.22-11.44.52:581][467]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Mannequin/Animations/ThirdPersonRun.ThirdPersonRun
+[2020.01.22-11.44.52:591][467]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.01.22-11.44.52:626][467]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.01.22-11.44.52:947][467]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.01.22-11.44.52:961][468]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Robot-Footstep_6...
+[2020.01.22-11.44.52:983][468]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 216576 while cooking SoundWave /Game/Sounds/SFX/SoundFiles/Steps/Robot-Footstep_6.Robot-Footstep_6.
+[2020.01.22-11.44.53:118][476]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Robot-Footstep-3...
+[2020.01.22-11.44.53:143][476]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 216576 while cooking SoundWave /Game/Sounds/SFX/SoundFiles/Steps/Robot-Footstep-3.Robot-Footstep-3.
+[2020.01.22-11.44.53:406][491]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Robot-Footstep_2...
+[2020.01.22-11.44.53:425][491]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 216576 while cooking SoundWave /Game/Sounds/SFX/SoundFiles/Steps/Robot-Footstep_2.Robot-Footstep_2.
+[2020.01.22-11.44.53:719][506]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Robot-Footstep_4...
+[2020.01.22-11.44.53:743][506]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 216576 while cooking SoundWave /Game/Sounds/SFX/SoundFiles/Steps/Robot-Footstep_4.Robot-Footstep_4.
+[2020.01.22-11.44.54:329][539]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Robot-Footstep_7...
+[2020.01.22-11.44.54:349][539]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 216576 while cooking SoundWave /Game/Sounds/SFX/SoundFiles/Steps/Robot-Footstep_7.Robot-Footstep_7.
+[2020.01.22-11.44.54:602][553]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Robot-Footstep_8...
+[2020.01.22-11.44.54:623][553]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 216576 while cooking SoundWave /Game/Sounds/SFX/SoundFiles/Steps/Robot-Footstep_8.Robot-Footstep_8.
+[2020.01.22-11.44.54:917][571]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Robot-Footstep_5...
+[2020.01.22-11.44.54:937][571]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 216576 while cooking SoundWave /Game/Sounds/SFX/SoundFiles/Steps/Robot-Footstep_5.Robot-Footstep_5.
+[2020.01.22-11.46.12:077][177]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.01.22-11.46.12:219][177]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu52FE42E84B9320940AA6BDBAF435AF8F.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu.umap'
+[2020.01.22-11.46.12:397][177]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu_BuiltDataAA84C980498D1A5DB90F73804B702999.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu_BuiltData.uasset'
+[2020.01.22-11.46.13:009][213]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-11.46.13:036][213]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-11.46.13:036][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-11.46.13:037][213]PIE: New page: PIE session: MainMenu (22 Jan 2020 13:46:13)
+[2020.01.22-11.46.13:037][213]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2020.01.22-11.46.13:046][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008824s)
+[2020.01.22-11.46.13:047][213]LogAIModule: Creating AISystem for world MainMenu
+[2020.01.22-11.46.13:047][213]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2020.01.22-11.46.13:047][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.009961s)
+[2020.01.22-11.46.13:071][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.01.22-11.46.13:084][213]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-11.46.13:100][213]LogInit: FAudioDevice initialized.
+[2020.01.22-11.46.13:111][213]LogLoad: Game class is 'GameMode'
+[2020.01.22-11.46.13:111][213]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2020.01.22-12.46.13
+[2020.01.22-11.46.13:111][213]LogWorld: Bringing up level for play took: 0.000593
+[2020.01.22-11.46.13:111][213]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.01.22-11.46.13:113][213]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.01.22-11.46.13:113][213]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.01.22-11.46.13:113][213]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.01.22-11.46.13:115][213]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.01.22-11.46.13:115][213]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.963
+[2020.01.22-11.46.13:115][213]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-11.46.13:136][213]LogAudio: Warning: Detected orphaned looping sound 'MenuMusic'.
+[2020.01.22-11.46.20:330][634]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-11.46.32:929][388]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-11.47.12:953][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.01.22-11.47.13:117][780]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu41B7101549086412A5D8A09571F0D1DD.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu.umap'
+[2020.01.22-11.47.13:177][780]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu_BuiltData10B706FB443A0B07BE4736B5A1342CC2.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu_BuiltData.uasset'
+[2020.01.22-11.47.13:808][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-11.47.13:809][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-11.47.13:809][817]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2020.01.22-11.47.13:809][817]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-11.47.13:818][817]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-11.47.13:818][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.01.22-11.47.13:844][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-11.47.13:847][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.01.22-11.47.13:912][821]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.01.22-11.47.44:606][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Step" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset" SILENT=true
+[2020.01.22-11.47.44:625][614]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/StepEC1E6A1241D2AB93242EB68D88219153.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset'
+[2020.01.22-11.49.44:629][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Step" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset" SILENT=true
+[2020.01.22-11.49.44:652][749]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Step8085FF0641E4FF174BC45988AE86C9FC.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset'
+[2020.01.22-11.49.46:682][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.01.22-11.49.46:806][866]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu6F6C39734824981D374924A65381DD5C.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu.umap'
+[2020.01.22-11.49.46:879][866]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu_BuiltData48B3CC004682C0910A7CA28FD7AF78EC.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu_BuiltData.uasset'
+[2020.01.22-11.49.50:731][ 90]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonRun6032F178465C1BA718ACDF90B0038662.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2020.01.22-11.50.15:860][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Step" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset" SILENT=true
+[2020.01.22-11.50.15:880][576]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Step76DDB44A478157B34A1AE3945C7A56D9.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset'
+[2020.01.22-11.50.19:054][763]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonRun04CC42194333CC95743ECEB8CC0658E5.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2020.01.22-11.50.38:298][900]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-11.50.38:421][905]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonRun3317A38845DC1E4C5C7A6CAF08F2F409.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2020.01.22-11.51.06:598][586]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonRun2C2B94E241D1440904B9F6BD1ED1B15A.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2020.01.22-11.51.08:998][724]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.01.22-11.51.09:137][724]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu97C338E24A91CAF87C4591B7A89CCE35.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu.umap'
+[2020.01.22-11.51.09:202][724]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/MainMenu_BuiltData14E63A1E4CDA8A9060D0B2816650F78B.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/MainMenu_BuiltData.uasset'
+[2020.01.22-11.51.16:510][ 18]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.01.22-11.51.16:510][ 18]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2020.01.22-11.51.16:510][ 18]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
+[2020.01.22-11.51.16:510][ 18]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.01.22-11.51.16:836][ 18]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2020.01.22-11.51.16:967][ 18]LogMaterial: Display: Missing cached shader map for material Blender_Video_Mat, compiling. 
+[2020.01.22-11.51.17:021][ 18]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 31
+[2020.01.22-11.51.17:021][ 18]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 27
+[2020.01.22-11.51.17:021][ 18]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 23
+[2020.01.22-11.51.17:021][ 18]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2020.01.22-11.51.17:021][ 18]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 15
+[2020.01.22-11.51.17:021][ 18]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 11
+[2020.01.22-11.51.17:021][ 18]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2020.01.22-11.51.17:021][ 18]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.01.22-11.51.17:021][ 18]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-11.51.17:124][ 18]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Prop_Test_2.Prop_Test_2
+[2020.01.22-11.51.17:164][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.01.22-11.51.17:206][ 18]Cmd: MAP LOAD FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.22-11.51.17:206][ 18]LightingResults: New page: Lighting Build
+[2020.01.22-11.51.17:206][ 18]LoadErrors: New page: Loading map: Prop_Test_2.umap
+[2020.01.22-11.51.17:207][ 18]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-11.51.17:207][ 18]MapCheck: New page: Map Check
+[2020.01.22-11.51.17:207][ 18]LightingResults: New page: Lighting Build
+[2020.01.22-11.51.17:238][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.01.22-11.51.17:716][ 18]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.22-11.51.17:894][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.01.22-11.51.17:963][ 18]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.22-11.51.17:967][ 18]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 4.55ms to complete.
+[2020.01.22-11.51.17:967][ 18]LogFileHelpers: Loading map 'Prop_Test_2' took 0.802
+[2020.01.22-11.51.19:340][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.01.22-11.51.19:848][ 46]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2FF2069614E9F6A29FC32C694A1DC7A56.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-11.51.20:193][ 46]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataC24FA8E9442603B992EEF39BEF9DCC63.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-11.51.20:680][ 56]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-11.51.20:753][ 56]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-11.51.20:754][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-11.51.20:754][ 56]PIE: New page: PIE session: Prop_Test_2 (22 Jan 2020 13:51:20)
+[2020.01.22-11.51.20:755][ 56]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-11.51.20:789][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033613s)
+[2020.01.22-11.51.20:791][ 56]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-11.51.20:791][ 56]LogPlayLevel: PIE: World Init took: (0.002437s)
+[2020.01.22-11.51.20:791][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prop_Test_2.Prop_Test_2 to /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 (0.036464s)
+[2020.01.22-11.51.20:833][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   6.96ms
+[2020.01.22-11.51.20:859][ 56]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-11.51.20:889][ 56]LogInit: FAudioDevice initialized.
+[2020.01.22-11.51.20:908][ 56]LogLoad: Game class is 'GameplayGM_C'
+[2020.01.22-11.51.20:913][ 56]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 up for play (max tick rate 60) at 2020.01.22-12.51.20
+[2020.01.22-11.51.20:931][ 56]LogWorld: Bringing up level for play took: 0.021410
+[2020.01.22-11.51.20:931][ 56]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.01.22-11.51.21:048][ 56]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 22
+[2020.01.22-11.51.21:048][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-11.51.21:138][ 56]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	GameplayGM_C /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2:PersistentLevel.GameplayGM_C_0
+	Function /Game/Blueprints/GamePlay/GameplayGM.GameplayGM_C:ExecuteUbergraph_GameplayGM:0035
+[2020.01.22-11.51.21:145][ 56]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  GameplayGM Function:  Execute Ubergraph Gameplay GM Graph:  EventGraph Node:  At Start
+[2020.01.22-11.51.21:145][ 56]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prop_Test_2 0.994
+[2020.01.22-11.51.21:146][ 56]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-11.51.21:223][ 57]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 19
+[2020.01.22-11.51.21:377][ 60]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 16
+[2020.01.22-11.51.21:829][ 70]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-11.51.22:613][ 86]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2020.01.22-11.51.22:680][ 87]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 11
+[2020.01.22-11.51.22:946][ 93]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.01.22-11.51.22:956][ 93]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.01.22-11.51.23:246][ 99]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.01.22-11.51.23:393][102]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.01.22-11.51.23:524][105]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.01.22-11.51.23:588][106]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.01.22-11.51.24:167][117]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.01.22-11.51.24:354][121]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.01.22-11.51.40:997][ 44]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-11.51.42:079][108]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-11.51.42:974][108]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.01.22-11.51.42:979][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-11.51.42:979][108]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-11.51.42:979][108]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-11.51.42:988][108]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-11.51.42:988][108]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-11.51.43:021][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-11.51.43:028][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.01.22-11.51.43:086][108]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-11.51.43:178][109]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.01.22-11.51.46:820][315]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-11.51.46:827][315]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-11.51.49:884][490]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonRun62CA2D474C43F691A2681A8E8807806E.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2020.01.22-11.58.35:061][555]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\Steps\WAV\zapsplat_foley_footstep_single_flip_flop_road_tarmac_bitumen_006_44601 (online-audio-converter.com).wav)
+[2020.01.22-11.58.41:456][767]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave zapsplat_foley_footstep_single_flip_flop_road_tarmac_bitumen_006_44601__online-audio-converter_com_...
+[2020.01.22-11.58.41:466][767]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 58840 while cooking SoundWave /Game/Sounds/SFX/SoundFiles/Steps/zapsplat_foley_footstep_single_flip_flop_road_tarmac_bitumen_006_44601__online-audio-converter_com_.zapsplat_foley_footstep_single_flip_flop_road_tarmac_bitumen_006_44601__online-audio-converter_com_.
+[2020.01.22-11.58.49:140][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Step" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset" SILENT=true
+[2020.01.22-11.58.49:166][224]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Step49BFC4854B254C347F97D689DF03A2CA.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset'
+[2020.01.22-12.01.37:636][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Step" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset" SILENT=true
+[2020.01.22-12.01.37:657][590]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Step40DA4EA34D4D927412FB59A82442BF0B.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset'
+[2020.01.22-12.01.43:481][925]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonRunF14561F1450B7589B454A39C92D3D667.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2020.01.22-12.01.44:473][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Step" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset" SILENT=true
+[2020.01.22-12.01.44:489][980]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Step7962A1324C3A0E49460CD5986A6D8B88.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset'
+[2020.01.22-12.02.03:490][ 74]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ThirdPersonRunF57FBEA741F0C2A89ED6DBA0E4670544.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2020.01.22-12.02.15:330][738]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/footstep134D7F834F41B7B3E12C88A82463F6C4.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/SoundFiles/Steps/footstep.uasset'
+[2020.01.22-12.02.15:476][738]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2020.01.22-12.02.15:510][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.01.22-12.02.15:534][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.01.22-12.02.15:558][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Step" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset" SILENT=true
+[2020.01.22-12.02.15:576][738]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/StepE97B5F624D22C6C6996F36BAB3DF92B5.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset'
+[2020.01.22-12.02.37:268][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Step" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset" SILENT=true
+[2020.01.22-12.02.37:325][ 13]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Step2248BCB44EBD596117D87EAA37AAD715.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset'
+[2020.01.22-12.02.54:328][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.01.22-12.02.54:513][ 24]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_25A887A7F4882F968F74DBCAE3B57D67E.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.02.54:652][ 24]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataD3D977E64744AFD45B5B369479C69AA1.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.02.58:783][265]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.01.22-12.03.00:823][265]LogSlate: Window 'Delete Assets' being destroyed
+[2020.01.22-12.03.01:007][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.01.22-12.03.01:032][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.01.22-12.03.01:054][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.01.22-12.03.01:081][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.01.22-12.03.01:115][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.01.22-12.03.01:142][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.01.22-12.03.01:167][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.01.22-12.03.01:192][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.01.22-12.03.01:224][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.01.22-12.03.01:249][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.01.22-12.03.03:023][367]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.01.22-12.03.03:188][367]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_22C90E5574A6F384BD0A5339A80EBD323.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.03.03:314][367]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataB03031ED46E07BB009D7E98EC599D107.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.03.16:480][111]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/footstep9E75E94A491AFE8598CC5BA89409F163.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/SoundFiles/footstep.uasset'
+[2020.01.22-12.03.16:633][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.01.22-12.03.16:663][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.01.22-12.03.16:692][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.01.22-12.03.16:716][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Step" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset" SILENT=true
+[2020.01.22-12.03.16:733][111]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Step728AF36D4403A524C01ECE9E6ABBEE43.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset'
+[2020.01.22-12.03.23:743][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.01.22-12.03.23:908][510]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_22818FACC45E290A857C1F0A4F8772DDC.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.03.24:038][510]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataD9A6F4DF4EEBBF4B2E630083CF834852.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.03.24:848][557]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-12.03.24:876][557]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.03.24:876][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-12.03.24:876][557]PIE: New page: PIE session: Prop_Test_2 (22 Jan 2020 14:03:24)
+[2020.01.22-12.03.24:877][557]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.03.24:893][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015513s)
+[2020.01.22-12.03.24:894][557]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-12.03.24:894][557]LogPlayLevel: PIE: World Init took: (0.001231s)
+[2020.01.22-12.03.24:894][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prop_Test_2.Prop_Test_2 to /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 (0.016902s)
+[2020.01.22-12.03.24:928][557]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.01.22-12.03.24:944][557]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-12.03.24:965][557]LogInit: FAudioDevice initialized.
+[2020.01.22-12.03.24:976][557]LogLoad: Game class is 'GameplayGM_C'
+[2020.01.22-12.03.24:979][557]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 up for play (max tick rate 60) at 2020.01.22-13.03.24
+[2020.01.22-12.03.24:980][557]LogWorld: Bringing up level for play took: 0.002913
+[2020.01.22-12.03.24:980][557]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.01.22-12.03.24:983][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.03.24:984][557]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	GameplayGM_C /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2:PersistentLevel.GameplayGM_C_0
+	Function /Game/Blueprints/GamePlay/GameplayGM.GameplayGM_C:ExecuteUbergraph_GameplayGM:0035
+[2020.01.22-12.03.24:984][557]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  GameplayGM Function:  Execute Ubergraph Gameplay GM Graph:  EventGraph Node:  At Start
+[2020.01.22-12.03.24:985][557]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prop_Test_2 0.834
+[2020.01.22-12.03.24:985][557]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.03.25:431][582]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.03.57:666][515]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.03.58:183][546]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.03.58:193][546]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.01.22-12.03.58:194][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.03.58:194][546]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.03.58:194][546]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.03.58:201][546]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-12.03.58:201][546]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.03.58:230][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.03.58:234][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.01.22-12.03.58:252][546]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-12.03.58:302][547]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.01.22-12.03.59:519][611]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.03.59:525][611]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.04.15:271][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Step" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset" SILENT=true
+[2020.01.22-12.04.15:291][552]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Step1C4EDEB947B8E3AACC7A1FAB1C9C1868.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset'
+[2020.01.22-12.04.16:775][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.01.22-12.04.16:926][637]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2E16E738A47B562C8AE12DC8FA58B465F.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.04.17:050][637]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData4FEDD5154962346F2258488D25B35963.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.04.18:496][722]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-12.04.18:526][722]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.04.18:526][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-12.04.18:526][722]PIE: New page: PIE session: Prop_Test_2 (22 Jan 2020 14:04:18)
+[2020.01.22-12.04.18:526][722]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.04.18:539][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012857s)
+[2020.01.22-12.04.18:540][722]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-12.04.18:540][722]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2020.01.22-12.04.18:540][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prop_Test_2.Prop_Test_2 to /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 (0.013929s)
+[2020.01.22-12.04.18:570][722]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.01.22-12.04.18:583][722]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-12.04.18:593][722]LogInit: FAudioDevice initialized.
+[2020.01.22-12.04.18:601][722]LogLoad: Game class is 'GameplayGM_C'
+[2020.01.22-12.04.18:603][722]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 up for play (max tick rate 60) at 2020.01.22-13.04.18
+[2020.01.22-12.04.18:604][722]LogWorld: Bringing up level for play took: 0.001810
+[2020.01.22-12.04.18:604][722]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2020.01.22-12.04.18:606][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.04.18:607][722]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	GameplayGM_C /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2:PersistentLevel.GameplayGM_C_0
+	Function /Game/Blueprints/GamePlay/GameplayGM.GameplayGM_C:ExecuteUbergraph_GameplayGM:0035
+[2020.01.22-12.04.18:608][722]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  GameplayGM Function:  Execute Ubergraph Gameplay GM Graph:  EventGraph Node:  At Start
+[2020.01.22-12.04.18:608][722]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prop_Test_2 0.456
+[2020.01.22-12.04.18:608][722]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.04.18:936][740]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.04.22:384][947]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.04.22:584][959]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.04.22:597][959]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.01.22-12.04.22:597][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.04.22:597][959]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.04.22:597][959]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.04.22:602][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-12.04.22:602][959]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.04.22:632][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.04.22:635][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.01.22-12.04.22:652][959]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-12.04.22:718][960]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2020.01.22-12.04.24:058][ 31]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.04.24:068][ 31]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.04.28:003][235]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2
+[2020.01.22-12.04.28:965][235]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2020.01.22-12.05.01:926][ 56]BlueprintLog: New page: Compile Prop_Test_2
+[2020.01.22-12.05.02:255][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2020.01.22-12.05.02:704][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.01.22-12.05.02:925][ 79]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2E32D8F3E45B83848A657AB8DC0124889.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.05.02:980][ 79]LogFileHelpers: Saving map 'Prop_Test_2' took 0.312
+[2020.01.22-12.05.04:209][147]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.01.22-12.05.04:468][147]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_217FFEC9840260A09BE4967974B46901A.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.05.04:593][147]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataE4539F8944DFDE79F6E62A9398CE4E03.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.05.05:925][225]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-12.05.05:951][225]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.05.05:951][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-12.05.05:951][225]PIE: New page: PIE session: Prop_Test_2 (22 Jan 2020 14:05:05)
+[2020.01.22-12.05.05:952][225]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.05.05:966][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013804s)
+[2020.01.22-12.05.05:966][225]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-12.05.05:967][225]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2020.01.22-12.05.05:967][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prop_Test_2.Prop_Test_2 to /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 (0.014846s)
+[2020.01.22-12.05.06:000][225]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.01.22-12.05.06:012][225]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-12.05.06:021][225]LogInit: FAudioDevice initialized.
+[2020.01.22-12.05.06:031][225]LogLoad: Game class is 'GameplayGM_C'
+[2020.01.22-12.05.06:034][225]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 up for play (max tick rate 60) at 2020.01.22-13.05.06
+[2020.01.22-12.05.06:034][225]LogWorld: Bringing up level for play took: 0.001713
+[2020.01.22-12.05.06:034][225]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2020.01.22-12.05.06:036][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.05.06:038][225]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	GameplayGM_C /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2:PersistentLevel.GameplayGM_C_0
+	Function /Game/Blueprints/GamePlay/GameplayGM.GameplayGM_C:ExecuteUbergraph_GameplayGM:0035
+[2020.01.22-12.05.06:038][225]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  GameplayGM Function:  Execute Ubergraph Gameplay GM Graph:  EventGraph Node:  At Start
+[2020.01.22-12.05.06:038][225]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prop_Test_2 -0.113
+[2020.01.22-12.05.06:038][225]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.05.06:071][225]LogAudio: Warning: Detected orphaned looping sound 'LevelMusic'.
+[2020.01.22-12.05.06:459][248]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.05.53:543][ 55]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.05.54:428][108]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.05.54:441][108]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.01.22-12.05.54:441][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.05.54:441][108]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.05.54:441][108]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.05.54:450][108]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-12.05.54:451][108]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.05.54:485][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.05.54:490][108]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.01.22-12.05.54:510][108]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-12.05.54:566][109]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2020.01.22-12.05.56:136][189]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.05.56:146][189]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.05.57:077][239]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.01.22-12.05.57:330][239]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2B23C4E4142A0F8078B43058BC6E089F9.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.05.57:473][239]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData8B00EAC548E6A40764E932A14BADE6A6.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.06.33:740][378]LogAssetEditorManager: Opening Asset editor for SoundCue /Game/Sounds/SFX/OpenBeamWheel.OpenBeamWheel
+[2020.01.22-12.08.22:131][819]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2020.01.22-12.08.22:382][819]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_20D2BBA12432022B5D0ED08AE30A930EC.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.08.22:519][819]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataD26CA59A45733F68855455A6A08508ED.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.08.22:854][838]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-12.08.22:882][838]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.08.22:882][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-12.08.22:882][838]PIE: New page: PIE session: Prop_Test_2 (22 Jan 2020 14:08:22)
+[2020.01.22-12.08.22:883][838]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.08.22:898][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015240s)
+[2020.01.22-12.08.22:899][838]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-12.08.22:899][838]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2020.01.22-12.08.22:899][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prop_Test_2.Prop_Test_2 to /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 (0.016403s)
+[2020.01.22-12.08.22:933][838]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2020.01.22-12.08.22:947][838]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-12.08.22:959][838]LogInit: FAudioDevice initialized.
+[2020.01.22-12.08.22:993][838]LogLoad: Game class is 'GameplayGM_C'
+[2020.01.22-12.08.22:995][838]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 up for play (max tick rate 60) at 2020.01.22-13.08.22
+[2020.01.22-12.08.22:996][838]LogWorld: Bringing up level for play took: 0.001903
+[2020.01.22-12.08.22:996][838]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2020.01.22-12.08.22:999][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.08.23:001][838]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	GameplayGM_C /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2:PersistentLevel.GameplayGM_C_0
+	Function /Game/Blueprints/GamePlay/GameplayGM.GameplayGM_C:ExecuteUbergraph_GameplayGM:0035
+[2020.01.22-12.08.23:001][838]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  GameplayGM Function:  Execute Ubergraph Gameplay GM Graph:  EventGraph Node:  At Start
+[2020.01.22-12.08.23:001][838]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prop_Test_2 0.85
+[2020.01.22-12.08.23:001][838]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.08.23:029][838]LogAudio: Warning: Detected orphaned looping sound 'LevelMusic'.
+[2020.01.22-12.08.23:211][849]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.08.44:569][130]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.08.45:086][161]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.08.45:086][161]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.01.22-12.08.45:086][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.08.45:086][161]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.08.45:087][161]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.08.45:099][161]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-12.08.45:099][161]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.08.45:137][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.08.45:141][161]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.01.22-12.08.45:158][161]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-12.08.45:227][162]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2020.01.22-12.08.46:752][241]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.08.46:760][241]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.08.47:789][299]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.01.22-12.08.48:034][299]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2715AC978467EE93D6ED55D952525669D.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.08.48:161][299]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataFDC13C91403F02EC83DEA3B010539FA6.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.08.56:780][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Step" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset" SILENT=true
+[2020.01.22-12.08.56:800][810]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Step591F1FD149F395A44E56D48FEF3DFA5D.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Step.uasset'
+[2020.01.22-12.08.58:153][883]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.01.22-12.08.58:391][883]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_298EACDF64142C3BAA6427F934614F58D.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.08.58:530][883]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData8EDFC4064A14B7FC0CDC61BB0784C79A.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.08.59:084][915]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-12.08.59:114][915]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.08.59:114][915]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-12.08.59:114][915]PIE: New page: PIE session: Prop_Test_2 (22 Jan 2020 14:08:59)
+[2020.01.22-12.08.59:114][915]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.08.59:131][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016917s)
+[2020.01.22-12.08.59:132][915]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-12.08.59:132][915]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2020.01.22-12.08.59:132][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prop_Test_2.Prop_Test_2 to /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 (0.017956s)
+[2020.01.22-12.08.59:171][915]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2020.01.22-12.08.59:184][915]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-12.08.59:195][915]LogInit: FAudioDevice initialized.
+[2020.01.22-12.08.59:201][915]LogLoad: Game class is 'GameplayGM_C'
+[2020.01.22-12.08.59:203][915]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 up for play (max tick rate 60) at 2020.01.22-13.08.59
+[2020.01.22-12.08.59:204][915]LogWorld: Bringing up level for play took: 0.001777
+[2020.01.22-12.08.59:204][915]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2020.01.22-12.08.59:206][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.08.59:207][915]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	GameplayGM_C /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2:PersistentLevel.GameplayGM_C_0
+	Function /Game/Blueprints/GamePlay/GameplayGM.GameplayGM_C:ExecuteUbergraph_GameplayGM:0035
+[2020.01.22-12.08.59:207][915]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  GameplayGM Function:  Execute Ubergraph Gameplay GM Graph:  EventGraph Node:  At Start
+[2020.01.22-12.08.59:207][915]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prop_Test_2 1.057
+[2020.01.22-12.08.59:208][915]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.08.59:234][915]LogAudio: Warning: Detected orphaned looping sound 'LevelMusic'.
+[2020.01.22-12.08.59:465][929]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.09.12:999][741]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.09.13:599][777]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.09.13:599][777]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.01.22-12.09.13:599][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.09.13:599][777]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.09.13:600][777]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.09.13:612][777]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-12.09.13:612][777]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.09.13:650][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.09.13:654][777]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.01.22-12.09.13:672][777]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-12.09.13:728][778]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2020.01.22-12.09.15:165][854]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.09.15:175][854]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.09.29:433][649]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.01.22-12.09.29:681][649]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2850EF8B34C6BDDD819BCF7AA5300D67E.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.09.29:735][649]LogFileHelpers: Saving map 'Prop_Test_2' took 0.339
+[2020.01.22-12.09.30:061][666]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.09.32:256][773]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/OpenBeamWheel5FBE8B2F4A179119F6CF98A91B8373DE.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/OpenBeamWheel.uasset'
+[2020.01.22-12.10.05:413][744]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/OpenAndCloseDoor1C2296D84FC528F469A5CD89B7688956.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/SoundFiles/OpenAndCloseDoor.uasset'
+[2020.01.22-12.10.05:795][744]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2020.01.22-12.10.05:830][744]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2020.01.22-12.10.05:859][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.01.22-12.10.05:904][744]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/OpenBeamWheel294E58D4493D8496AB237081A75FAE09.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/OpenBeamWheel.uasset'
+[2020.01.22-12.10.24:346][831]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2
+[2020.01.22-12.12.41:631][403]LogEditorViewport: Clicking on Actor (LMB): TutorialScreen_C (TutorialScreen)
+[2020.01.22-12.12.43:094][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-12.12.44:495][563]LogEditorViewport: Clicking Background
+[2020.01.22-12.12.47:705][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-12.12.52:354][ 23]LogEditorViewport: Clicking on Actor (LMB): BP_Door_C (BP_Door)
+[2020.01.22-12.12.54:762][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-12.12.55:284][166]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Props/BP_Door.BP_Door
+[2020.01.22-12.12.55:945][167]LogSlate: Took 0.014636 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.22-12.13.03:040][557]LogEditorViewport: Clicking on Actor (LMB): BP_TimedButton_C (BP_TimedButton)
+[2020.01.22-12.13.07:409][803]LogEditorViewport: Clicking on Actor (LMB): BP_Door_C (BP_Door)
+[2020.01.22-12.13.19:487][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-12.13.23:928][740]LogEditorViewport: Clicking on Actor (LMB): BP_TimedButton_C (BP_TimedButton)
+[2020.01.22-12.13.25:442][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-12.13.33:885][292]LogEditorViewport: Clicking on Actor (LMB): BP_Door_C (BP_Door)
+[2020.01.22-12.13.36:820][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-12.13.43:436][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-12.13.43:579][817]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.01.22-12.13.43:864][817]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2BDD8735F4ACC9418F749538759A01B64.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.13.44:008][817]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData8C94CF454953B5B82E956DAF879FC9FA.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.13.44:767][856]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-12.13.44:798][856]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.13.44:798][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-12.13.44:799][856]PIE: New page: PIE session: Prop_Test_2 (22 Jan 2020 14:13:44)
+[2020.01.22-12.13.44:799][856]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.13.44:813][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014449s)
+[2020.01.22-12.13.44:815][856]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-12.13.44:815][856]LogPlayLevel: PIE: World Init took: (0.001403s)
+[2020.01.22-12.13.44:815][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prop_Test_2.Prop_Test_2 to /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 (0.016015s)
+[2020.01.22-12.13.44:857][856]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.01.22-12.13.44:870][856]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-12.13.44:881][856]LogInit: FAudioDevice initialized.
+[2020.01.22-12.13.44:888][856]LogLoad: Game class is 'GameplayGM_C'
+[2020.01.22-12.13.44:891][856]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 up for play (max tick rate 60) at 2020.01.22-13.13.44
+[2020.01.22-12.13.44:891][856]LogWorld: Bringing up level for play took: 0.001825
+[2020.01.22-12.13.44:892][856]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2020.01.22-12.13.44:894][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.13.44:897][856]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	GameplayGM_C /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2:PersistentLevel.GameplayGM_C_0
+	Function /Game/Blueprints/GamePlay/GameplayGM.GameplayGM_C:ExecuteUbergraph_GameplayGM:0035
+[2020.01.22-12.13.44:897][856]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  GameplayGM Function:  Execute Ubergraph Gameplay GM Graph:  EventGraph Node:  At Start
+[2020.01.22-12.13.44:897][856]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prop_Test_2 0.746
+[2020.01.22-12.13.44:897][856]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.13.44:925][856]LogAudio: Warning: Detected orphaned looping sound 'LevelMusic'.
+[2020.01.22-12.13.45:255][874]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.13.58:940][685]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.14.02:634][904]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.14.02:636][904]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.01.22-12.14.02:636][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.14.02:636][904]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.14.02:636][904]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.14.02:654][904]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-12.14.02:654][904]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.14.02:694][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.14.02:699][904]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.01.22-12.14.02:719][904]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-12.14.02:821][905]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2020.01.22-12.14.03:799][947]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.14.03:811][947]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.14.51:404][691]BlueprintLog: New page: Compile BP_Door
+[2020.01.22-12.14.51:636][691]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2020.01.22-12.14.52:121][708]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BP_Door78D2C1DA49E1513F5BB855A2312A6699.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Blueprints/Props/BP_Door.uasset'
+[2020.01.22-12.15.00:131][181]LogMetaData: Removing '/Game/Sounds/SFX/OpenDoor.OpenDoor:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/SFX/OpenBeamWheel.PackageMetaData'
+[2020.01.22-12.15.00:174][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/OpenDoor" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/OpenDoor.uasset" SILENT=true
+[2020.01.22-12.15.00:183][181]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/OpenDoor15345E5D4B0AFF64C1232B8858060F90.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/OpenDoor.uasset'
+[2020.01.22-12.15.00:385][181]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.01.22-12.15.00:423][181]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.01.22-12.15.00:457][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.01.22-12.15.00:544][181]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BP_Door348629B74305D1F572385D929119A42A.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Blueprints/Props/BP_Door.uasset'
+[2020.01.22-12.15.09:107][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/CloseDoor" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/CloseDoor.uasset" SILENT=true
+[2020.01.22-12.15.09:114][683]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/CloseDoor95EC8920410B10F3E6EC5080CCD82442.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/CloseDoor.uasset'
+[2020.01.22-12.15.09:908][727]LogAssetEditorManager: Opening Asset editor for SoundCue /Game/Sounds/SFX/CloseDoor.CloseDoor
+[2020.01.22-12.15.22:903][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/CloseDoor" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/CloseDoor.uasset" SILENT=true
+[2020.01.22-12.15.22:921][494]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/CloseDoor4829DFD34C0A48366D05BF8195D0CFB1.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/CloseDoor.uasset'
+[2020.01.22-12.15.27:153][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.01.22-12.15.27:392][740]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2B56669334C9FBF1506CE55A4D4083D63.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.15.27:523][740]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataBB5D399945ED3191FFCF68A8703D8C02.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.16.03:174][773]BlueprintLog: New page: Compile BP_Door
+[2020.01.22-12.16.03:409][773]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.01.22-12.16.04:079][803]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BP_DoorA0BC44924933C18E9CC246901B23FF0A.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Blueprints/Props/BP_Door.uasset'
+[2020.01.22-12.16.05:299][869]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.01.22-12.16.05:543][869]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_203B382584C69BE029F34D59E9D3026E5.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.16.05:669][869]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataA3B810354AD11BC4B9C96695895E9818.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.16.05:969][885]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-12.16.06:008][885]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.16.06:008][885]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-12.16.06:008][885]PIE: New page: PIE session: Prop_Test_2 (22 Jan 2020 14:16:06)
+[2020.01.22-12.16.06:008][885]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.16.06:024][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015323s)
+[2020.01.22-12.16.06:025][885]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-12.16.06:025][885]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2020.01.22-12.16.06:025][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prop_Test_2.Prop_Test_2 to /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 (0.016608s)
+[2020.01.22-12.16.06:074][885]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2020.01.22-12.16.06:089][885]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-12.16.06:101][885]LogInit: FAudioDevice initialized.
+[2020.01.22-12.16.06:129][885]LogLoad: Game class is 'GameplayGM_C'
+[2020.01.22-12.16.06:131][885]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 up for play (max tick rate 60) at 2020.01.22-13.16.06
+[2020.01.22-12.16.06:131][885]LogWorld: Bringing up level for play took: 0.001821
+[2020.01.22-12.16.06:132][885]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2020.01.22-12.16.06:134][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.16.06:136][885]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	GameplayGM_C /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2:PersistentLevel.GameplayGM_C_0
+	Function /Game/Blueprints/GamePlay/GameplayGM.GameplayGM_C:ExecuteUbergraph_GameplayGM:0035
+[2020.01.22-12.16.06:137][885]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  GameplayGM Function:  Execute Ubergraph Gameplay GM Graph:  EventGraph Node:  At Start
+[2020.01.22-12.16.06:137][885]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prop_Test_2 -0.014
+[2020.01.22-12.16.06:137][885]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.16.06:166][885]LogAudio: Warning: Detected orphaned looping sound 'LevelMusic'.
+[2020.01.22-12.16.06:459][902]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.16.07:275][951]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.16.08:276][ 11]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.16.08:276][ 11]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.01.22-12.16.08:276][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.16.08:276][ 11]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.16.08:276][ 11]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.16.08:297][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-12.16.08:297][ 11]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.16.08:339][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.16.08:345][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.01.22-12.16.08:362][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-12.16.08:463][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2020.01.22-12.18.05:117][599]BlueprintLog: New page: Compile BP_Door
+[2020.01.22-12.18.05:370][599]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2020.01.22-12.18.05:886][620]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BP_DoorAB102AEB4FF31CB985B7B6BB7DFBD5B7.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Blueprints/Props/BP_Door.uasset'
+[2020.01.22-12.18.12:508][990]BlueprintLog: New page: Compile BP_Door
+[2020.01.22-12.18.12:736][990]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.01.22-12.18.13:263][ 11]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BP_Door00E3DD7E4C7CDB8C41763F8C794D6D87.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Blueprints/Props/BP_Door.uasset'
+[2020.01.22-12.18.14:317][ 67]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.18.14:329][ 67]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.18.15:271][116]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.01.22-12.18.15:514][116]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_296A9172A4A1E1B70E7C393A1173B697A.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.18.15:643][116]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataD5D58CCF40E1F1DA966AD9BD41D56491.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.18.16:055][138]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-12.18.16:084][138]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.18.16:084][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-12.18.16:084][138]PIE: New page: PIE session: Prop_Test_2 (22 Jan 2020 14:18:16)
+[2020.01.22-12.18.16:084][138]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.18.16:098][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014705s)
+[2020.01.22-12.18.16:099][138]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-12.18.16:099][138]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2020.01.22-12.18.16:099][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prop_Test_2.Prop_Test_2 to /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 (0.015884s)
+[2020.01.22-12.18.16:140][138]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.01.22-12.18.16:155][138]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-12.18.16:169][138]LogInit: FAudioDevice initialized.
+[2020.01.22-12.18.16:178][138]LogLoad: Game class is 'GameplayGM_C'
+[2020.01.22-12.18.16:180][138]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 up for play (max tick rate 60) at 2020.01.22-13.18.16
+[2020.01.22-12.18.16:181][138]LogWorld: Bringing up level for play took: 0.001846
+[2020.01.22-12.18.16:181][138]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2020.01.22-12.18.16:183][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.18.16:184][138]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	GameplayGM_C /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2:PersistentLevel.GameplayGM_C_0
+	Function /Game/Blueprints/GamePlay/GameplayGM.GameplayGM_C:ExecuteUbergraph_GameplayGM:0035
+[2020.01.22-12.18.16:184][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  GameplayGM Function:  Execute Ubergraph Gameplay GM Graph:  EventGraph Node:  At Start
+[2020.01.22-12.18.16:184][138]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prop_Test_2 0.033
+[2020.01.22-12.18.16:184][138]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.18.16:211][138]LogAudio: Warning: Detected orphaned looping sound 'LevelMusic'.
+[2020.01.22-12.18.16:505][155]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.18.22:951][541]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.18.23:039][546]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.18.23:039][546]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.01.22-12.18.23:039][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.18.23:039][546]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.18.23:039][546]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.18.23:058][546]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-12.18.23:058][546]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.18.23:098][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.18.23:104][546]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.01.22-12.18.23:121][546]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-12.18.23:209][547]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2020.01.22-12.18.24:816][630]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.18.24:830][630]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.18.25:938][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.01.22-12.18.26:197][692]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2F77A6F154607CC02A6E37A90192B43D1.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.18.26:332][692]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData2D3A03C34A1B0BE000849992A548D189.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.18.43:318][684]LogEditorTransaction: Undo Break Pin Links
+[2020.01.22-12.18.44:275][684]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.01.22-12.18.44:314][684]LogEditorTransaction: Undo Break Pin Links
+[2020.01.22-12.18.44:398][684]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.01.22-12.18.44:403][684]LogEditorTransaction: Undo Break Pin Links
+[2020.01.22-12.18.44:480][684]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.01.22-12.25.26:077][286]BlueprintLog: New page: Compile BP_Door
+[2020.01.22-12.25.26:368][286]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2020.01.22-12.25.26:832][303]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BP_DoorFBC9DC6842FE3B154ABF99BBA8902DDB.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Blueprints/Props/BP_Door.uasset'
+[2020.01.22-12.25.28:107][373]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2020.01.22-12.25.28:380][373]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_245194ABC48A8E02A40E7B9B6305B4311.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.25.28:514][373]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataD4D3D41C45C887B5EF961186C7DEBAEE.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.25.38:632][969]BlueprintLog: New page: Compile BP_Door
+[2020.01.22-12.25.38:881][969]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.01.22-12.25.39:331][985]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BP_Door7108F5D14AEE3935B527379D397EBE00.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Blueprints/Props/BP_Door.uasset'
+[2020.01.22-12.25.40:475][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2020.01.22-12.25.40:723][ 47]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_282C819444F2FA5FE28A86B86047F7DC1.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.25.40:853][ 47]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData25BC84324C9A229D0CEEAAB8AA0328D6.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.25.41:258][ 69]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-12.25.41:289][ 69]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.25.41:290][ 69]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-12.25.41:290][ 69]PIE: New page: PIE session: Prop_Test_2 (22 Jan 2020 14:25:41)
+[2020.01.22-12.25.41:290][ 69]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.25.41:304][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014324s)
+[2020.01.22-12.25.41:305][ 69]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-12.25.41:305][ 69]LogPlayLevel: PIE: World Init took: (0.001168s)
+[2020.01.22-12.25.41:305][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prop_Test_2.Prop_Test_2 to /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 (0.015655s)
+[2020.01.22-12.25.41:351][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.01.22-12.25.41:364][ 69]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-12.25.41:379][ 69]LogInit: FAudioDevice initialized.
+[2020.01.22-12.25.41:385][ 69]LogLoad: Game class is 'GameplayGM_C'
+[2020.01.22-12.25.41:389][ 69]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 up for play (max tick rate 60) at 2020.01.22-13.25.41
+[2020.01.22-12.25.41:389][ 69]LogWorld: Bringing up level for play took: 0.001738
+[2020.01.22-12.25.41:389][ 69]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2020.01.22-12.25.41:391][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.25.41:393][ 69]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	GameplayGM_C /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2:PersistentLevel.GameplayGM_C_0
+	Function /Game/Blueprints/GamePlay/GameplayGM.GameplayGM_C:ExecuteUbergraph_GameplayGM:0035
+[2020.01.22-12.25.41:393][ 69]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  GameplayGM Function:  Execute Ubergraph Gameplay GM Graph:  EventGraph Node:  At Start
+[2020.01.22-12.25.41:393][ 69]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prop_Test_2 -0.758
+[2020.01.22-12.25.41:393][ 69]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.25.41:419][ 69]LogAudio: Warning: Detected orphaned looping sound 'LevelMusic'.
+[2020.01.22-12.25.41:885][ 96]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.25.59:063][125]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.25.59:114][128]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.26.15:221][ 91]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.26.24:653][655]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.26.24:653][655]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.01.22-12.26.24:653][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.26.24:654][655]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.26.24:654][655]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.26.24:675][655]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-12.26.24:675][655]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.26.24:709][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.26.24:715][655]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.01.22-12.26.24:734][655]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-12.26.24:863][656]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2020.01.22-12.26.25:876][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.01.22-12.26.26:115][696]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_23A28875F4BC853A4446708B851539597.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.26.26:242][696]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData7E25A79949D4AFAA0A467E8F0F854C9B.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.26.26:940][732]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.26.26:951][732]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.26.50:400][ 48]BlueprintLog: New page: Compile BP_Door
+[2020.01.22-12.26.50:624][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.01.22-12.26.51:089][ 64]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BP_DoorE9A982724B0C79ADABBA3999B741E14B.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Blueprints/Props/BP_Door.uasset'
+[2020.01.22-12.26.52:406][134]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2020.01.22-12.26.52:645][134]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_24019BF244AA9D573C9B379B0F103C308.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.26.52:774][134]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData042F672147FC3CCC78ED08A968AD2FFA.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.26.53:211][157]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-12.26.53:241][157]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.26.53:241][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-12.26.53:241][157]PIE: New page: PIE session: Prop_Test_2 (22 Jan 2020 14:26:53)
+[2020.01.22-12.26.53:242][157]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.26.53:255][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014319s)
+[2020.01.22-12.26.53:256][157]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-12.26.53:256][157]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2020.01.22-12.26.53:256][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prop_Test_2.Prop_Test_2 to /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 (0.015542s)
+[2020.01.22-12.26.53:304][157]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2020.01.22-12.26.53:316][157]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-12.26.53:328][157]LogInit: FAudioDevice initialized.
+[2020.01.22-12.26.53:341][157]LogLoad: Game class is 'GameplayGM_C'
+[2020.01.22-12.26.53:343][157]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 up for play (max tick rate 60) at 2020.01.22-13.26.53
+[2020.01.22-12.26.53:344][157]LogWorld: Bringing up level for play took: 0.002279
+[2020.01.22-12.26.53:344][157]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2020.01.22-12.26.53:346][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.26.53:348][157]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	GameplayGM_C /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2:PersistentLevel.GameplayGM_C_0
+	Function /Game/Blueprints/GamePlay/GameplayGM.GameplayGM_C:ExecuteUbergraph_GameplayGM:0035
+[2020.01.22-12.26.53:348][157]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  GameplayGM Function:  Execute Ubergraph Gameplay GM Graph:  EventGraph Node:  At Start
+[2020.01.22-12.26.53:348][157]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prop_Test_2 -0.803
+[2020.01.22-12.26.53:349][157]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.26.53:380][157]LogAudio: Warning: Detected orphaned looping sound 'LevelMusic'.
+[2020.01.22-12.26.53:665][173]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.27.13:943][378]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.27.14:276][398]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.27.14:276][398]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.01.22-12.27.14:276][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.27.14:276][398]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.27.14:277][398]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.27.14:304][398]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-12.27.14:304][398]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.27.14:343][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.27.14:348][398]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.01.22-12.27.14:367][398]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-12.27.14:483][399]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2020.01.22-12.27.15:928][475]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.27.15:939][475]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.27.32:120][412]BlueprintLog: New page: Compile BP_Door
+[2020.01.22-12.27.32:343][412]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.01.22-12.27.32:793][428]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BP_Door1976E04F4926734D886BD08B3B19E778.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Blueprints/Props/BP_Door.uasset'
+[2020.01.22-12.27.36:972][666]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BP_Door1254591C4752701074124B94805D13DF.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Blueprints/Props/BP_Door.uasset'
+[2020.01.22-12.27.43:619][ 52]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BP_DoorCAAC955B4BF179FCCCF8F69DBC69782A.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Blueprints/Props/BP_Door.uasset'
+[2020.01.22-12.27.45:423][153]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.01.22-12.27.45:682][153]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2D1EAE4A54C2CF2ADAC8786ADB3EC267B.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.27.45:734][153]LogFileHelpers: Saving map 'Prop_Test_2' took 0.352
+[2020.01.22-12.27.48:356][305]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.01.22-12.27.48:605][305]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_258343F294C0EE76AA7E19299FC4E6BAC.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.27.48:734][305]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataC294F0414A7ED5570ED937BBA4E82F5E.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.28.26:472][482]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.01.22-12.28.26:704][482]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_21CFF2B7C425A2681A9F1FC9B0E8BE7C8.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.28.26:832][482]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData6323D71E4FD97C00081EBAA90F701E5A.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.28.31:651][763]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.01.22-12.28.31:889][763]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2E3BC2734444562A2354C8F8388873CC1.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.28.32:024][763]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataB315092A4AD86CC6604220AC6A92926F.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.29.14:415][107]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.01.22-12.29.14:635][107]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_253D29AA54997395725DC3995ABEC7380.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.29.14:758][107]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData73DF35B545A836B4D67E6B85308FCDA3.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.29.34:914][261]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BeamWheelOpen9032E9EA4794FCF952037FBB5C6669FE.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/BeamWheelOpen.uasset'
+[2020.01.22-12.29.36:373][346]LogAssetEditorManager: Opening Asset editor for SoundCue /Game/Sounds/SFX/BeamWheelOpen.BeamWheelOpen
+[2020.01.22-12.30.04:262][  7]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2020.01.22-12.30.04:496][  7]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_247BCA632418A43C6D40AEAAB5235B29D.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.30.04:620][  7]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData5214F0E2477061E6191D4E9E74E23276.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.30.54:483][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-12.30.54:637][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2020.01.22-12.30.54:903][  0]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2F10DAC724FE8182A05D4F2BEE1EED5FE.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.30.55:622][  0]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData05ACCA7743B30D5EE8334AAC5800FB09.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.34.39:343][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.01.22-12.34.39:599][ 91]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_239C16644491990348F1800BD29B0DAC9.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.34.39:729][ 91]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataDD4883F845AE2EE2111C22A2017865DD.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.43.17:896][887]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\BTS\OneDrive - 365education\Semester3\GOPRO\Music\SFX\grab\WAV\grab.wav)
+[2020.01.22-12.43.19:340][936]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave grab...
+[2020.01.22-12.43.19:347][936]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 21344 while cooking SoundWave /Game/Sounds/SFX/SoundFiles/grab.grab.
+[2020.01.22-12.43.26:299][346]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/grab64C4372647121ECB7B0823A8E012DEF2.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/SoundFiles/grab.uasset'
+[2020.01.22-12.43.33:554][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Grab" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Grab.uasset" SILENT=true
+[2020.01.22-12.43.33:562][769]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Grab3EF40F3E40531801A7E732B3E5526C14.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Grab.uasset'
+[2020.01.22-12.43.37:138][981]LogAssetEditorManager: Opening Asset editor for SoundCue /Game/Sounds/SFX/Grab.Grab
+[2020.01.22-12.44.37:851][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Grab" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Grab.uasset" SILENT=true
+[2020.01.22-12.44.37:867][591]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/GrabFB580EA249681A66110FAE837B1AC544.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Grab.uasset'
+[2020.01.22-12.45.09:829][485]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BeamWheelOpen1F23B2484894A2BCCD943B9F481DC9F3.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/BeamWheelOpen.uasset'
+[2020.01.22-12.45.53:994][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2020.01.22-12.45.53:994][ 90]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prop_Test_2' took 0.038
+[2020.01.22-12.45.53:996][ 90]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sounds/SFX/BeamWheelOpen] ([1] browsable assets)...
+[2020.01.22-12.45.53:996][ 90]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sounds/SFX/BeamWheelOpen]
+[2020.01.22-12.45.54:012][ 90]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BeamWheelOpen_Auto1B50511BF47E8594C1C205C954299F23B.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Autosaves/Game/Sounds/SFX/BeamWheelOpen_Auto1.uasset'
+[2020.01.22-12.45.54:013][ 90]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sounds/SFX/Grab] ([1] browsable assets)...
+[2020.01.22-12.45.54:013][ 90]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sounds/SFX/Grab]
+[2020.01.22-12.45.54:025][ 90]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Grab_Auto1057865D34A6C9B18DED16881E9F7F6CE.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Autosaves/Game/Sounds/SFX/Grab_Auto1.uasset'
+[2020.01.22-12.45.54:026][ 90]LogFileHelpers: Auto-saving content packages took 0.031
+[2020.01.22-12.46.12:957][191]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Props/BP_SignalReceptor.BP_SignalReceptor
+[2020.01.22-12.47.01:362][942]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Interfaces/BPI_SignalActivatable.BPI_SignalActivatable
+[2020.01.22-12.47.06:062][200]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.47.18:753][932]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Props/BP_Powerline.BP_Powerline
+[2020.01.22-12.47.38:431][ 63]LogEditorViewport: Clicking on Actor (LMB): BP_Powerline_C (BP_Powerline2)
+[2020.01.22-12.47.45:360][404]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-12.48.00:977][305]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.48.38:110][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Grab" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Grab.uasset" SILENT=true
+[2020.01.22-12.48.38:127][493]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/GrabDC7988D7413023CA2197FFA3F12574CE.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Grab.uasset'
+[2020.01.22-12.48.40:272][618]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/BeamWheelOpenCDC3AC13404CCC9EB833E6A0FF79F80A.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/BeamWheelOpen.uasset'
+[2020.01.22-12.49.50:571][789]LogEditorViewport: Clicking on Actor (LMB): BP_Box_C (BP_Box)
+[2020.01.22-12.49.52:929][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.22-12.49.55:801][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.01.22-12.49.56:045][ 56]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_22B5C269045EABD3C596FABA251A6C2B2.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.49.56:189][ 56]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataFA2711864B63526E620E348FE3A626A6.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.49.56:526][ 74]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-12.49.56:561][ 74]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.49.56:561][ 74]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-12.49.56:561][ 74]PIE: New page: PIE session: Prop_Test_2 (22 Jan 2020 14:49:56)
+[2020.01.22-12.49.56:561][ 74]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.49.56:576][ 74]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014330s)
+[2020.01.22-12.49.56:576][ 74]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-12.49.56:577][ 74]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2020.01.22-12.49.56:577][ 74]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prop_Test_2.Prop_Test_2 to /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 (0.015442s)
+[2020.01.22-12.49.56:638][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.01.22-12.49.56:654][ 74]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-12.49.56:670][ 74]LogInit: FAudioDevice initialized.
+[2020.01.22-12.49.56:680][ 74]LogLoad: Game class is 'GameplayGM_C'
+[2020.01.22-12.49.56:682][ 74]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 up for play (max tick rate 60) at 2020.01.22-13.49.56
+[2020.01.22-12.49.56:683][ 74]LogWorld: Bringing up level for play took: 0.001766
+[2020.01.22-12.49.56:683][ 74]LogOnline: OSS: Creating online subsystem instance for: :Context_52
+[2020.01.22-12.49.56:685][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.49.56:686][ 74]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	GameplayGM_C /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2:PersistentLevel.GameplayGM_C_0
+	Function /Game/Blueprints/GamePlay/GameplayGM.GameplayGM_C:ExecuteUbergraph_GameplayGM:0035
+[2020.01.22-12.49.56:687][ 74]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  GameplayGM Function:  Execute Ubergraph Gameplay GM Graph:  EventGraph Node:  At Start
+[2020.01.22-12.49.56:687][ 74]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prop_Test_2 0.536
+[2020.01.22-12.49.56:687][ 74]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.49.57:488][ 74]LogAudio: Warning: Detected orphaned looping sound 'LevelMusic'.
+[2020.01.22-12.49.57:510][ 75]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.49.57:510][ 75]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.49.58:067][108]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.49.59:398][188]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.49.59:782][211]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.49.59:783][211]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.01.22-12.49.59:783][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.49.59:783][211]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.49.59:783][211]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.49.59:831][211]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-12.49.59:831][211]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.49.59:875][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.49.59:879][211]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.01.22-12.49.59:898][211]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-12.49.59:962][212]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2020.01.22-12.50.01:251][277]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.50.01:258][277]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.50.18:312][264]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Components/GrabComponent.GrabComponent
+[2020.01.22-12.50.20:751][378]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Components/PowerlineComponent.PowerlineComponent
+[2020.01.22-12.50.37:384][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.01.22-12.50.37:384][307]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.52.13:413][952]BlueprintLog: New page: Compile GrabComponent
+[2020.01.22-12.52.13:509][952]LogUObjectHash: Compacting FUObjectHashTables data took  17.42ms
+[2020.01.22-12.52.14:029][975]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/GrabComponent4DDD9A4448122538DA528F9C2934D11E.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Blueprints/Components/GrabComponent.uasset'
+[2020.01.22-12.52.15:770][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2020.01.22-12.52.16:016][ 73]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2A5A97B06485D15659C903CA8D5CCFED5.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.52.16:141][ 73]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData1EEE145A4063484F534A59A081571D59.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.52.17:003][114]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-12.52.17:037][114]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.52.17:037][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-12.52.17:037][114]PIE: New page: PIE session: Prop_Test_2 (22 Jan 2020 14:52:17)
+[2020.01.22-12.52.17:037][114]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.52.17:054][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016454s)
+[2020.01.22-12.52.17:056][114]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-12.52.17:057][114]LogPlayLevel: PIE: World Init took: (0.002602s)
+[2020.01.22-12.52.17:057][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prop_Test_2.Prop_Test_2 to /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 (0.019282s)
+[2020.01.22-12.52.17:101][114]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.01.22-12.52.17:118][114]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-12.52.17:130][114]LogInit: FAudioDevice initialized.
+[2020.01.22-12.52.17:135][114]LogLoad: Game class is 'GameplayGM_C'
+[2020.01.22-12.52.17:137][114]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 up for play (max tick rate 60) at 2020.01.22-13.52.17
+[2020.01.22-12.52.17:138][114]LogWorld: Bringing up level for play took: 0.001900
+[2020.01.22-12.52.17:138][114]LogOnline: OSS: Creating online subsystem instance for: :Context_55
+[2020.01.22-12.52.17:140][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.52.17:142][114]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	GameplayGM_C /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2:PersistentLevel.GameplayGM_C_0
+	Function /Game/Blueprints/GamePlay/GameplayGM.GameplayGM_C:ExecuteUbergraph_GameplayGM:0035
+[2020.01.22-12.52.17:142][114]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  GameplayGM Function:  Execute Ubergraph Gameplay GM Graph:  EventGraph Node:  At Start
+[2020.01.22-12.52.17:142][114]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prop_Test_2 0.991
+[2020.01.22-12.52.17:142][114]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.52.17:169][114]LogAudio: Warning: Detected orphaned looping sound 'LevelMusic'.
+[2020.01.22-12.52.17:525][135]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.52.31:065][932]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.52.31:350][949]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.52.31:364][949]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.01.22-12.52.31:364][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.52.31:364][949]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.52.31:364][949]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.52.31:376][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-12.52.31:377][949]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.52.31:713][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.52.31:718][949]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.01.22-12.52.31:737][949]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-12.52.31:820][950]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2020.01.22-12.52.32:785][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.01.22-12.52.33:048][990]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_204C8BC4D4C9F793291A604B68911100F.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.52.33:180][990]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltDataBCA23F9142C986E1621F358437156ACD.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.52.34:166][ 44]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.52.34:177][ 44]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.52.35:327][108]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.01.22-12.52.35:583][108]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_279A8CDDB4FC55AF5305DEF9A4CBBE11B.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.52.35:722][108]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData129D2C3C4D01D8D135D3B2A841FEE2F5.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.52.43:727][577]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/GrabComponentA96D36CF436BF1CEABEDE1823C269CEB.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Blueprints/Components/GrabComponent.uasset'
+[2020.01.22-12.53.03:168][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Release" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Release.uasset" SILENT=true
+[2020.01.22-12.53.03:179][733]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/ReleaseE863BE004413C7A78F34009A9BD52813.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Release.uasset'
+[2020.01.22-12.53.03:682][760]LogAssetEditorManager: Opening Asset editor for SoundCue /Game/Sounds/SFX/Release.Release
+[2020.01.22-12.53.11:391][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX/Release" FILE="../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Release.uasset" SILENT=true
+[2020.01.22-12.53.11:408][210]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Release0BFD13D045235448CC8215AD248049C0.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/Release.uasset'
+[2020.01.22-12.53.56:039][781]BlueprintLog: New page: Compile GrabComponent
+[2020.01.22-12.53.56:105][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.01.22-12.53.57:008][829]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/GrabComponentF044227E47338738554644AE6E023633.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Blueprints/Components/GrabComponent.uasset'
+[2020.01.22-12.53.58:535][913]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2020.01.22-12.53.58:786][913]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2AFD8840D484CA8AD31750499077578F7.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.53.58:916][913]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData8D1C5F8144AC80A2861613B25F519DD6.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.53.59:750][961]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.22-12.53.59:797][961]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.53.59:797][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.22-12.53.59:797][961]PIE: New page: PIE session: Prop_Test_2 (22 Jan 2020 14:53:59)
+[2020.01.22-12.53.59:797][961]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.53.59:814][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016176s)
+[2020.01.22-12.53.59:814][961]LogAIModule: Creating AISystem for world Prop_Test_2
+[2020.01.22-12.53.59:815][961]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2020.01.22-12.53.59:815][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prop_Test_2.Prop_Test_2 to /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 (0.017391s)
+[2020.01.22-12.53.59:859][961]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.01.22-12.53.59:873][961]LogInit: XAudio2 using 'Headphones (boseAudio Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.22-12.53.59:882][961]LogInit: FAudioDevice initialized.
+[2020.01.22-12.53.59:889][961]LogLoad: Game class is 'GameplayGM_C'
+[2020.01.22-12.53.59:891][961]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2 up for play (max tick rate 60) at 2020.01.22-13.53.59
+[2020.01.22-12.53.59:892][961]LogWorld: Bringing up level for play took: 0.001745
+[2020.01.22-12.53.59:892][961]LogOnline: OSS: Creating online subsystem instance for: :Context_56
+[2020.01.22-12.53.59:894][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.53.59:895][961]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	GameplayGM_C /Game/Maps/UEDPIE_0_Prop_Test_2.Prop_Test_2:PersistentLevel.GameplayGM_C_0
+	Function /Game/Blueprints/GamePlay/GameplayGM.GameplayGM_C:ExecuteUbergraph_GameplayGM:0035
+[2020.01.22-12.53.59:896][961]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Blueprint:  GameplayGM Function:  Execute Ubergraph Gameplay GM Graph:  EventGraph Node:  At Start
+[2020.01.22-12.53.59:896][961]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Prop_Test_2 -0.255
+[2020.01.22-12.53.59:896][961]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.53.59:922][961]LogAudio: Warning: Detected orphaned looping sound 'LevelMusic'.
+[2020.01.22-12.54.00:225][979]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.54.18:619][ 75]LogBlueprintUserMessages: [Leggers_C_0] NoBeam
+[2020.01.22-12.54.18:854][ 89]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.54.18:867][ 89]LogOnlineSession: Warning: OSS: Can't destroy a null online session (GameSession)
+[2020.01.22-12.54.18:867][ 89]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.54.18:867][ 89]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Prop_Test_2
+[2020.01.22-12.54.18:867][ 89]LogWorld: UWorld::CleanupWorld for Prop_Test_2, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.54.18:877][ 89]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.22-12.54.18:877][ 89]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2' with GeneratedClass '/Game/Maps/Prop_Test_2.Prop_Test_C' with ClassGeneratedBy '/Game/Maps/Prop_Test_2.Prop_Test_2:PersistentLevel.Prop_Test_2'
+[2020.01.22-12.54.18:921][ 89]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.22-12.54.18:925][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.01.22-12.54.18:944][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.01.22-12.54.19:016][ 90]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2020.01.22-12.54.20:554][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.01.22-12.54.20:789][163]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2BF32369F4890128548966FACA828FB00.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.54.20:921][163]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData0C5F5579420B48B40D993E8370C3C255.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.54.21:438][191]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.54.21:452][191]LogSlate: Window 'Message Log' being destroyed
+[2020.01.22-12.54.22:532][251]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.01.22-12.54.22:777][251]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_20FD7EFA74082E6D21D22F0BD51AEB050.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.54.22:905][251]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData5EF17E4A40C227F9F4B396A65066EF7E.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.56.16:392][626]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/CloseBeamWheelBB48078F4606C31E469C3EAE55784ACF.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Sounds/SFX/CloseBeamWheel.uasset'
+[2020.01.22-12.56.17:108][666]LogAssetEditorManager: Opening Asset editor for SoundCue /Game/Sounds/SFX/CloseBeamWheel.CloseBeamWheel
+[2020.01.22-12.56.36:323][806]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.01.22-12.56.38:217][806]LogSlate: Window 'Delete Assets' being destroyed
+[2020.01.22-12.56.38:491][806]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Sounds/SFX/CloseBeamWheel.CloseBeamWheel
+[2020.01.22-12.56.43:339][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.01.22-12.56.43:564][806]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.01.22-12.56.43:601][806]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.01.22-12.56.47:118][  5]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.01.22-12.56.47:358][  5]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2D285ACAE4AA880DDEA63FEA383C4ABF2.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2.umap'
+[2020.01.22-12.56.47:493][  5]LogSavePackage: Moving '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Saved/Prop_Test_2_BuiltData8B6E983541966FDCC2104A8BCE23C350.tmp' to '../../../../../../BTS/OneDrive - 365education/Semester3/GOPRO/JaxAndLeggers_FabioVersion/Content/Maps/Prop_Test_2_BuiltData.uasset'
+[2020.01.22-12.56.48:504][ 64]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
