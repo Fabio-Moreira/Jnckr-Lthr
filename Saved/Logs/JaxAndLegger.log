@@ -759,3 +759,88 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.22-12.11.55:234][ 10]LogSlate: Window 'Jax' being destroyed
 [2020.01.22-12.11.55:239][ 10]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2020.01.22-12.11.55:239][ 10]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.21.59:540][216]LogTemp: Repeating last play command: Standalone Game
+[2020.01.22-12.21.59:601][216]LogUObjectHash: Compacting FUObjectHashTables data took   5.49ms
+[2020.01.22-12.22.00:072][236]LogTemp: Repeating last play command: Standalone Game
+[2020.01.22-12.22.00:122][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.01.22-12.24.16:765][310]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Props/BP_button.BP_Button
+[2020.01.22-12.24.18:123][328]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Props/BP_TimedButton.BP_TimedButton
+[2020.01.22-12.24.24:155][490]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Props/BP_Door.BP_Door
+[2020.01.22-12.26.37:170][ 57]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.26.37:753][ 74]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.01.22-12.26.37:753][ 74]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.26.38:563][102]LogSlate: Window 'BP_Door' being destroyed
+[2020.01.22-12.26.38:594][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.01.22-12.26.38:594][102]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.26.43:419][290]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Props/BP_SignalReceptor.BP_SignalReceptor
+[2020.01.22-12.27.21:511][544]BlueprintLog: New page: Compile BP_SignalReceptor
+[2020.01.22-12.27.21:767][544]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2020.01.22-12.27.22:329][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Props/BP_SignalReceptor" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Props/BP_SignalReceptor.uasset" SILENT=true
+[2020.01.22-12.27.22:483][559]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/BP_SignalReceptorDE9C2F1549978CB4F804C0A6F46BD8A4.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Props/BP_SignalReceptor.uasset'
+[2020.01.22-12.29.05:812][ 22]LogAssetEditorManager: Opening Asset editor for Blueprint /Engine/EditorBlueprintResources/ActorMacros.ActorMacros
+[2020.01.22-12.29.07:216][ 63]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.29.59:668][848]LogEditorTransaction: Undo Move Node
+[2020.01.22-12.30.00:102][860]LogEditorTransaction: Undo Create Pin Link
+[2020.01.22-12.30.00:321][866]LogEditorTransaction: Undo Rename Node
+[2020.01.22-12.30.00:512][871]LogEditorTransaction: Undo Add Node
+[2020.01.22-12.30.00:677][875]LogEditorTransaction: Undo Move Nodes
+[2020.01.22-12.30.00:869][880]LogEditorTransaction: Undo Move Nodes
+[2020.01.22-12.30.01:261][892]LogEditorTransaction: Undo Rename Parameter
+[2020.01.22-12.30.01:626][903]LogEditorTransaction: Undo Add In Parameter
+[2020.01.22-12.30.02:031][915]LogEditorTransaction: Undo Rename Parameter
+[2020.01.22-12.30.02:365][925]LogEditorTransaction: Undo Add In Parameter
+[2020.01.22-12.30.02:786][938]LogEditorTransaction: Undo Move Nodes
+[2020.01.22-12.30.03:202][951]LogEditorTransaction: Undo Move Nodes
+[2020.01.22-12.30.03:677][966]LogEditorTransaction: Undo Move Node
+[2020.01.22-12.30.03:983][975]LogEditorTransaction: Undo Move Node
+[2020.01.22-12.30.04:198][981]LogEditorTransaction: Undo Add Node
+[2020.01.22-12.30.04:555][992]LogEditorTransaction: Undo Change Replication
+[2020.01.22-12.30.04:954][  4]LogEditorTransaction: Undo Move Node
+[2020.01.22-12.30.05:347][ 16]LogEditorTransaction: Undo Move Node
+[2020.01.22-12.30.05:761][ 29]LogEditorTransaction: Undo Move Node
+[2020.01.22-12.30.06:236][ 44]LogEditorTransaction: Undo Rename Node
+[2020.01.22-12.30.06:626][ 56]LogEditorTransaction: Undo Move Node
+[2020.01.22-12.30.06:968][ 66]LogEditorTransaction: Undo Move Node
+[2020.01.22-12.30.07:438][ 81]LogEditorTransaction: Undo Break Pin Links
+[2020.01.22-12.30.07:862][ 94]LogEditorTransaction: Undo Break Pin Links
+[2020.01.22-12.30.08:255][106]LogEditorTransaction: Undo Move Node
+[2020.01.22-12.30.13:351][274]LogEditorTransaction: Undo Move Node
+[2020.01.22-12.30.15:458][345]LogEditorTransaction: Redo Move Node
+[2020.01.22-12.30.41:603][200]BlueprintLog: New page: Compile BP_SignalReceptor
+[2020.01.22-12.30.41:620][200]LogBlueprint: Error: [Compiler BP_SignalReceptor] Could not find a function named "Toggle" in 'BP_SignalReceptor_C'.
+Make sure 'BP_SignalReceptor_C' has been compiled for  Toggle
+[2020.01.22-12.30.41:883][200]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2020.01.22-12.30.41:897][200]BlueprintLog: New page: Compile BP_SignalReceptor
+[2020.01.22-12.30.41:901][200]LogBlueprint: Error: [Compiler BP_SignalReceptor] Could not find a function named "Toggle" in 'BP_SignalReceptor_C'.
+Make sure 'BP_SignalReceptor_C' has been compiled for  Toggle
+[2020.01.22-12.30.42:149][200]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2020.01.22-12.30.42:357][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Props/BP_SignalReceptor" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Props/BP_SignalReceptor.uasset" SILENT=true
+[2020.01.22-12.30.42:494][203]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/BP_SignalReceptorB3E580784324DB22B9CAECB56D6F2AEF.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Props/BP_SignalReceptor.uasset'
+[2020.01.22-12.30.42:811][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Props/BP_SignalReceptor" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Props/BP_SignalReceptor.uasset" SILENT=true
+[2020.01.22-12.30.42:951][212]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/BP_SignalReceptor64E068D04A0E447D74BBB3BA8A97B592.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Props/BP_SignalReceptor.uasset'
+[2020.01.22-12.31.42:507][230]BlueprintLog: New page: Compile BP_SignalReceptor
+[2020.01.22-12.31.42:528][230]LogBlueprint: Error: [Compiler BP_SignalReceptor] In use pin  Green  no longer exists on node  Toggle . Please refresh node or break links to remove pin.
+[2020.01.22-12.31.42:761][230]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2020.01.22-12.31.47:751][395]BlueprintLog: New page: Compile BP_SignalReceptor
+[2020.01.22-12.31.47:768][395]LogBlueprint: Error: [Compiler BP_SignalReceptor] In use pin  Green  no longer exists on node  Toggle . Please refresh node or break links to remove pin.
+[2020.01.22-12.31.47:768][395]LogBlueprint: Error: [Compiler BP_SignalReceptor] Could not find a function named "Toggle" in 'BP_SignalReceptor_C'.
+Make sure 'BP_SignalReceptor_C' has been compiled for  Toggle
+[2020.01.22-12.31.47:994][395]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2020.01.22-12.31.50:850][483]BlueprintLog: New page: Compile BP_SignalReceptor
+[2020.01.22-12.31.50:862][483]LogBlueprint: Error: [Compiler BP_SignalReceptor] In use pin  Green  no longer exists on node  Toggle . Please refresh node or break links to remove pin.
+[2020.01.22-12.31.50:862][483]LogBlueprint: Error: [Compiler BP_SignalReceptor] Could not find a function named "Toggle" in 'BP_SignalReceptor_C'.
+Make sure 'BP_SignalReceptor_C' has been compiled for  Toggle
+[2020.01.22-12.31.51:094][483]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2020.01.22-12.33.59:874][817]BlueprintLog: New page: Compile BP_SignalReceptor
+[2020.01.22-12.34.00:133][817]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2020.01.22-12.34.00:632][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Props/BP_SignalReceptor" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Props/BP_SignalReceptor.uasset" SILENT=true
+[2020.01.22-12.34.00:796][829]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/BP_SignalReceptor7306FA18419D85209C28559FB32258D0.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Props/BP_SignalReceptor.uasset'
+[2020.01.22-12.34.13:511][243]BlueprintLog: New page: Compile BP_SignalReceptor
+[2020.01.22-12.34.13:750][243]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2020.01.22-12.34.14:293][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Props/BP_SignalReceptor" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Props/BP_SignalReceptor.uasset" SILENT=true
+[2020.01.22-12.34.14:447][257]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/BP_SignalReceptor548984904350E0C8A2B0A2BE2F6C5D65.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Props/BP_SignalReceptor.uasset'
+[2020.01.22-12.34.18:774][394]LogSlate: Window 'BP_SignalReceptor' being destroyed
+[2020.01.22-12.34.18:814][394]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.34.21:178][486]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.01.22-12.34.22:910][566]LogSlate: Window 'Content Browser' being destroyed
+[2020.01.22-12.34.22:926][566]LogSlate: Window 'Content Browser' being destroyed
