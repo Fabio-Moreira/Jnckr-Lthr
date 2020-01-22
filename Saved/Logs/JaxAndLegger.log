@@ -736,3 +736,26 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.22-12.06.36:489][ 63]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
 [2020.01.22-12.06.38:187][137]LogSlate: Window 'Content Browser' being destroyed
 [2020.01.22-12.06.38:201][137]LogSlate: Window 'Content Browser' being destroyed
+[2020.01.22-12.07.50:027][512]LogTemp: Repeating last play command: Standalone Game
+[2020.01.22-12.07.50:086][512]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2020.01.22-12.09.31:024][707]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Leggers.Leggers
+[2020.01.22-12.09.35:478][788]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Jax.Jax
+[2020.01.22-12.10.12:761][658]LogEditorTransaction: Undo Move Node
+[2020.01.22-12.11.20:762][218]LogAssetEditorManager: Opening Asset editor for Blueprint /Engine/EditorBlueprintResources/StandardMacros.StandardMacros
+[2020.01.22-12.11.22:508][254]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.11.47:925][835]BlueprintLog: New page: Compile Leggers
+[2020.01.22-12.11.48:243][835]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2020.01.22-12.11.48:942][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Leggers" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Leggers.uasset" SILENT=true
+[2020.01.22-12.11.49:294][843]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/Leggers27560DE543127FEF2AEB99852C5A7ADB.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Leggers.uasset'
+[2020.01.22-12.11.50:134][862]LogSlate: Window 'Leggers' being destroyed
+[2020.01.22-12.11.50:167][862]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.11.51:282][894]BlueprintLog: New page: Compile Jax
+[2020.01.22-12.11.51:589][894]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2020.01.22-12.11.52:174][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Jax" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset" SILENT=true
+[2020.01.22-12.11.52:653][906]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/Jax8E656B3C46724B91F0333A814F0FD355.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-12.11.54:315][961]LogSlate: Window 'Content Browser' being destroyed
+[2020.01.22-12.11.54:333][961]LogSlate: Window 'Content Browser' being destroyed
+[2020.01.22-12.11.55:222][ 10]LogSlate: Window 'Jax' being destroyed
+[2020.01.22-12.11.55:234][ 10]LogSlate: Window 'Jax' being destroyed
+[2020.01.22-12.11.55:239][ 10]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.01.22-12.11.55:239][ 10]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
