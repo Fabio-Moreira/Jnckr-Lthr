@@ -708,3 +708,31 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.22-12.01.53:107][552]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
 [2020.01.22-12.01.54:711][620]LogSlate: Window 'Content Browser' being destroyed
 [2020.01.22-12.01.54:739][620]LogSlate: Window 'Content Browser' being destroyed
+[2020.01.22-12.02.38:125][961]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Characters/Jax.Jax
+[2020.01.22-12.02.51:360][356]LogTemp: Repeating last play command: Standalone Game
+[2020.01.22-12.02.51:421][356]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2020.01.22-12.02.52:711][356]LogSlate: Window 'Save Content' being destroyed
+[2020.01.22-12.02.52:749][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Jax" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset" SILENT=true
+[2020.01.22-12.02.53:233][356]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/Jax3EDAB24C4DABE3A7663B1BBC38DBDF74.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-12.04.01:291][691]LogTemp: Repeating last play command: Standalone Game
+[2020.01.22-12.04.01:348][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.01.22-12.05.41:329][493]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Beams/CharacterBeams/Beam.Beam
+[2020.01.22-12.05.44:382][576]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.05.56:405][948]LogEditorTransaction: Undo Create Pin Link
+[2020.01.22-12.05.57:086][964]LogEditorTransaction: Undo Create Pin Link
+[2020.01.22-12.05.57:342][968]LogEditorTransaction: Undo Create Pin Link
+[2020.01.22-12.05.57:606][972]LogEditorTransaction: Undo Create Pin Link
+[2020.01.22-12.05.58:377][991]LogEditorTransaction: Undo Paste clipboard contents
+[2020.01.22-12.06.00:055][ 37]LogEditorTransaction: Undo Delete current selection
+[2020.01.22-12.06.31:931][979]BlueprintLog: New page: Compile Jax
+[2020.01.22-12.06.32:247][979]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2020.01.22-12.06.32:887][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Jax" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset" SILENT=true
+[2020.01.22-12.06.33:358][991]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/JaxB83841C14E0BE5C84EE420B060118018.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-12.06.34:138][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Jax" FILE="F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset" SILENT=true
+[2020.01.22-12.06.34:680][ 12]LogSavePackage: Moving 'F:/Github/Jnckr-Lthr/Saved/Jax139C2C724B755B26BB3FE1B34E694050.tmp' to 'F:/Github/Jnckr-Lthr/Content/Blueprints/Characters/Jax.uasset'
+[2020.01.22-12.06.36:472][ 63]LogSlate: Window 'Jax' being destroyed
+[2020.01.22-12.06.36:488][ 63]LogSlate: Window 'Jax' being destroyed
+[2020.01.22-12.06.36:489][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.01.22-12.06.36:489][ 63]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.01.22-12.06.38:187][137]LogSlate: Window 'Content Browser' being destroyed
+[2020.01.22-12.06.38:201][137]LogSlate: Window 'Content Browser' being destroyed
