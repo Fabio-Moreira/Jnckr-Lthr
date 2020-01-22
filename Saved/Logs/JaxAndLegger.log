@@ -606,3 +606,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.22-13.11.26:210][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2020.01.22-13.11.26:276][169]LogTemp: Repeating last play command: Standalone Game
 [2020.01.22-13.11.26:329][169]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2020.01.22-13.13.36:642][752]LogTemp: Repeating last play command: Standalone Game
+[2020.01.22-13.13.36:687][752]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.01.22-13.17.48:077][702]LogTemp: Repeating last play command: Standalone Game
+[2020.01.22-13.17.48:133][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
